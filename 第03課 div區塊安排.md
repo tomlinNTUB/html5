@@ -143,7 +143,7 @@ index.html
 ```
 
 檔案名稱: css/main.css
-```html
+```css
 @charset "utf-8";
 
 html, body{
