@@ -11,7 +11,7 @@
    |     |___ main.css
    |	 
    |___<js>
-   |      |___ main.js 
+   |     |___ main.js 
    |
    |___index.html
 ```
@@ -103,7 +103,7 @@ div.footer{
    |     |___ main.css
    |	 
    |___<js>
-   |      |___ main.js 
+   |     |___ main.js 
    |
    |___index.html   
 ```
