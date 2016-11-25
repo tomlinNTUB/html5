@@ -49,7 +49,7 @@ index.html
 ```
 
 檔案名稱: css/main.css
-```
+```html
 @charset "utf-8";
 
 html, body{
@@ -107,7 +107,7 @@ index.html
 ```
 
 檔案名稱: index.html 
-```
+```html
 <!doctype html>
 <html>
 <meta charset="utf-8">
@@ -143,7 +143,7 @@ index.html
 ```
 
 檔案名稱: css/main.css
-```
+```css
 @charset "utf-8";
 
 html, body{
@@ -213,7 +213,7 @@ div.footer{
 ```
 
 檔案名稱: index.html 
-```
+```html
 <!doctype html>
 <html>
 <meta charset="utf-8">
@@ -250,7 +250,7 @@ div.footer{
 ```
 
 檔案名稱: css/main.css
-```
+```css
 @charset "utf-8";
 
 html, body{
@@ -324,7 +324,7 @@ div.footer{
 <p>
 
 檔案名稱: index.html 
-```
+```html
 <!doctype html>
 <html>
 <meta charset="utf-8">
@@ -367,7 +367,7 @@ div.footer{
 ```
 
 檔案名稱: css/main.css
-```
+```css
 @charset "utf-8";
 
 html, body{
