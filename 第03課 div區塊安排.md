@@ -6,13 +6,14 @@
 
 檔案放置方式如下:
 ```
-index.html
    | 
    |___<css>
    |     |___ main.css
    |	 
    |___<js>
-         |___ main.js    
+   |      |___ main.js 
+   |
+   |___index.html
 ```
 
 檔案名稱: index.html 
@@ -97,13 +98,14 @@ div.footer{
 
 檔案放置方式如下:
 ```
-index.html
    | 
    |___<css>
    |     |___ main.css
    |	 
    |___<js>
-         |___ main.js    
+   |      |___ main.js 
+   |
+   |___index.html   
 ```
 
 檔案名稱: index.html 
