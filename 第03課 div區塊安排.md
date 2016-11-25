@@ -16,7 +16,7 @@ index.html
 ```
 
 檔案名稱: index.html 
-```
+```html
 <!doctype html>
 <html>
 <meta charset="utf-8">
