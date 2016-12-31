@@ -1,7 +1,7 @@
 #第02課 文字排版及字型設定
 
 
-## (2) Google web font使用
+## (2) 使用Google web font
 
 
 #####執行結果:
