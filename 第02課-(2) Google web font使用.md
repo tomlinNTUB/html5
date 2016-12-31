@@ -8,6 +8,10 @@
 ![GitHub Logo](/imgs/results02-2.jpg)
 
 
+#####網路資源:
+https://fonts.google.com/
+
+
 #####檔案放置方式:
 ```
    | 
@@ -25,9 +29,9 @@
 <head>
 <meta charset="utf-8">
 <title>測試網頁</title>
-<!-- 加入一個main.css -->
+<!-- 加入 main.css -->
 <link href="css/main.css" rel="stylesheet" type="text/css" />
-<!-- 加入 google web fonts 使用 -->
+<!-- 加入 google web fonts -->
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Handlee" rel="stylesheet">
 </head>
 <body>
