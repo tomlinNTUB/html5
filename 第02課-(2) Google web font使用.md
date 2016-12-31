@@ -25,10 +25,12 @@
 <head>
 <meta charset="utf-8">
 <title>測試網頁</title>
+<!--------------------------------------------------------------------------------------->
 <!-- 加入一個main.css -->
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 <!-- 加入 google web fonts 使用 -->
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Handlee" rel="stylesheet">
+<!--------------------------------------------------------------------------------------->
 </head>
 <body>
 <!-- *** 加入一個區塊 *** -->
