@@ -1,14 +1,14 @@
-#第01課 建立一個網頁
+# 第01課 建立一個網頁
 
 
 ## (2) 在html中加style
 
 
-#####執行結果:
+##### 執行結果:
 ![GitHub Logo](/imgs/results01-2.jpg)
 
 
-#####檔案放置方式:
+##### 檔案放置方式:
 ```
    | 
    |___<css>
@@ -18,7 +18,7 @@
 ```
 
 
-#####檔案名稱: index.html 
+##### 檔案名稱: index.html 
 ```html
 <!doctype html>
 <html>
