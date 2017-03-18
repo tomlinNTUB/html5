@@ -1,13 +1,13 @@
-#第10課 jQuery UI
+# 第10課 jQuery UI
 
 
 ## (1) 改背景色及位置 
 
-#####執行結果:
+##### 執行結果:
 ![GitHub Logo](/imgs/results10-1.jpg)
 
 
-#####檔案放置方式:
+##### 檔案放置方式:
 ```
    | 
    |___<css>
@@ -20,7 +20,7 @@
 ```
 
 
-#####檔案名稱: index.html 
+##### 檔案名稱: index.html 
 ```html
 <!doctype html>
 <html>
@@ -92,7 +92,7 @@
 ```
 
 
-#####檔案名稱: css/main.css
+##### 檔案名稱: css/main.css
 ```css
 @charset "utf-8";
 
@@ -200,7 +200,7 @@ div.footer{
 
 
 
-#####檔案名稱: js/scripts.js
+##### 檔案名稱: js/scripts.js
 ```js
 // Easing函數使用: easings.net/zh-tw
 
