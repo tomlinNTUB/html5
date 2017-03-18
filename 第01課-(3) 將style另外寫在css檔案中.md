@@ -1,14 +1,14 @@
-#第01課 建立一個網頁
+# 第01課 建立一個網頁
 
 
 ## (3) 將style另外寫在css檔案中
 
 
-#####執行結果:
+##### 執行結果:
 ![GitHub Logo](/imgs/results01-3.jpg)
 
 
-#####檔案放置方式:
+##### 檔案放置方式:
 ```
    | 
    |___<css>
@@ -18,7 +18,7 @@
 ```
 
 
-#####檔案名稱: index.html 
+##### 檔案名稱: index.html 
 ```html
 <!doctype html>
 <html>
@@ -55,7 +55,7 @@ Defying those who said it wasn't in their DNA, the Taiwanese have created Asia's
 ```
 
 
-#####檔案名稱: css/main.css
+##### 檔案名稱: css/main.css
 ```css
 @charset "utf-8";
 
