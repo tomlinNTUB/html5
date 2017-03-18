@@ -1,18 +1,18 @@
-#第02課 文字排版及字型設定
+# 第02課 文字排版及字型設定
 
 
 ## (2) 使用Google web font
 
 
-#####執行結果:
+##### 執行結果:
 ![GitHub Logo](/imgs/results02-2.jpg)
 
 
-#####網路資源:
+##### 網路資源:
 https://fonts.google.com/
 
 
-#####檔案放置方式:
+##### 檔案放置方式:
 ```
    | 
    |___<css>
@@ -22,7 +22,7 @@ https://fonts.google.com/
 ```
 
 
-#####檔案名稱: index.html 
+##### 檔案名稱: index.html 
 ```html
 <!doctype html>
 <html>
@@ -66,7 +66,7 @@ https://fonts.google.com/
 ```
 
 
-#####檔案名稱: css/main.css
+##### 檔案名稱: css/main.css
 ```css
 @charset "utf-8";
 
