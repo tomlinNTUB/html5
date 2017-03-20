@@ -153,6 +153,7 @@ div.header img.logo{
     height:80px;
     border-radius:40px;
     position:relative;
+    z-index:30;    
     top:20px;
     box-shadow:0px 1px 3px 1px #000;
 }
