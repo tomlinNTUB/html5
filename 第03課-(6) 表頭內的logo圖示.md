@@ -98,8 +98,9 @@
         <div class="footer">
             NTUB imd, 2017.    
         </div>        
-        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->  
-	</div>
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--> 
+	
+    </div>
     <!--==========================================-->        
 </body>
 </html>
@@ -199,7 +200,7 @@ div.navbar ul li{
 /* 定義容器                   */
 /*--~~~~~~~~~~~~~~~~~~~~~~~--*/
 div.container{
-	width:800px;	
+    width:800px;	
     position:relative;
     margin-left:auto;
     margin-right:auto;	
