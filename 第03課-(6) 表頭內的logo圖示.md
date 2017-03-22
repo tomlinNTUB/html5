@@ -125,7 +125,7 @@ html, body{
     /*設定思源中文*/
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 280;	
-    background:#444;
+    background-color:#444;
     margin:0;	
 }
 
