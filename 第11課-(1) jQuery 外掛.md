@@ -26,7 +26,7 @@ https://github.com/fancyapps/fancyBox
 
 ##### 檔案放置方式:
 ```
-**以第10課-(2)的網頁為基礎, 增加以下.
+**以第10課-(2)的網頁為基礎, 增加以下:
 
    | 
    |___<images>
@@ -89,9 +89,9 @@ p.imageView:after{
 
 ##### 檔案名稱: index.html(增加顯示區域)  
 ```html
-<!------------------->
+<!--~~~~~~~~~~~~~~~~-->
 <!-- Fancybox 測試  -->
-<!-------------------> 
+<!--~~~~~~~~~~~~~~~~-->
 <p class="imageView">
     <a data-fancybox="gallery" href="images/p01-big.jpg">
         <img src="images/p01-small.jpg">
@@ -105,5 +105,5 @@ p.imageView:after{
         <img src="images/p03-small.jpg">
     </a>                     
 </p>
-<!-------------------> 
+<!--~~~~~~~~~~~~~~~~--> 
 ```
