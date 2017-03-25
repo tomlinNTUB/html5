@@ -67,27 +67,15 @@ https://github.com/patrickkunka/mixitup
 .mix,
 .gap {
     width: 170px;
-	background:#eee;
-}
-
-/* 設定卡片寬度(3 Columns) */
-@media screen and (min-width: 541px) {
-}
-
-/* 設定卡片寬度(4 Columns) */
-@media screen and (min-width: 961px) {
-}
-
-/* 設定卡片寬度(5 Columns) */
-@media screen and (min-width: 1281px) {
+    background:#eee;
 }
 
 
 /* 設定卡片上緣分頖顏色 */
 .mix {
-	border:none;
+    border:none;
     border-top: 15px solid currentColor;
-	box-shadow:0px 0px 5px 1px #000;
+    box-shadow:0px 0px 5px 1px #000;
 }
 
 
@@ -99,16 +87,16 @@ https://github.com/patrickkunka/mixitup
 
 /* 設定按鈕背景 */
 p.controls{
-	background-color:#fff;
+    background-color:#fff;
 }
 
 
 /* 設定按鈕文字 */
 p.controls a{
-	font-size:16px;
-	color:#666;
-	margin-right:20px;
-	cursor:pointer;
+    font-size:16px;
+    color:#666;
+    margin-right:20px;
+    cursor:pointer;
 }
 
 
@@ -136,7 +124,7 @@ p.controls a{
 ##### 檔案名稱: js/my.mixitup.js
 ```js
 $(function(){
-	var containerEl = document.querySelector('.container');
+    var containerEl = document.querySelector('.container');
     var mixer = mixitup(containerEl);
 })
 ```
