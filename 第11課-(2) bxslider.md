@@ -64,7 +64,6 @@ https://github.com/stevenwanderski/bxslider-4
 }
 
 .bx-wrapper .bx-next {
-    right: 10px;
     background: url(../images/controls.png) no-repeat -43px -32px;
 }
 
