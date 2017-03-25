@@ -164,7 +164,7 @@ var Page = (function() {
 
 
 $(function(){
-	Page.init();
+    Page.init();
 });
 ```
 
