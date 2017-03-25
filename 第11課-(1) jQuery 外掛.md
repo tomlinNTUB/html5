@@ -15,7 +15,7 @@ https://github.com/fancyapps/fancyBox
 
 
 
-##### 複製檔案
+##### 引用官網外掛檔案
 ```
    |___<dist>
          |___ jquery.fancybox.css
