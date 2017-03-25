@@ -34,7 +34,7 @@ https://github.com/stevenwanderski/bxslider-4
    | 
    |___<images>
    |     |___ p01-slider.jpg   (尺寸:800px*400px)
-   |     |___ p02-slider.jpg   (尺寸:200px*400px)
+   |     |___ p02-slider.jpg   (尺寸:800px*400px)
    |     |___ p03-slider.jpg   (尺寸:800px*400px)
    |     |___ (官網提供的圖片檔)   
    |     
