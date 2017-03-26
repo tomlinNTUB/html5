@@ -32,9 +32,9 @@ https://github.com/codrops/StackMotionHoverEffects
 
    |
    |___<images> 
-   |     |___ p01-middle.jpg  (350px*350px)   
-   |     |___ p02-middle.jpg  (350px*350px)  
-   |     |___ p03-middle.jpg  (350px*350px)  
+   |     |___ p01-middle.jpg  (尺寸:350px*350px) 
+   |     |___ p02-middle.jpg  (尺寸:350px*350px)  
+   |     |___ p03-middle.jpg  (尺寸:350px*350px)  
    |
    |___<css> (複製官網資料夾及內容) 
    |     |
@@ -52,32 +52,30 @@ https://github.com/codrops/StackMotionHoverEffects
 ##### 檔案名稱: css/my.anime.css
 ```css
 body {
-	color: #000;
+    color: #000;
 }
-
 
 /* 每個項目寬度 */
 div.grid{
-	width:240px;
-	padding:0;
-	margin-right:10px;
-	float:left;
+    width:240px;
+    padding:0;
+    margin-right:10px;
+    float:left;
 }
 
 /* 圖片寬度 */
 .grid__item{
-	width:200px;		
+    width:200px;		
 }
-
 
 /* 圖片高度 */
 .stack {
-	height: 150px;
+    height: 150px;
 }
 
 /* 陰影顏色 */
 .stack__deco {
-	background-color: #000;
+    background-color: #000;
 }
 ```
 
