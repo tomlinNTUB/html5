@@ -57,9 +57,9 @@ https://github.com/Sweefty/tinytip
 
 // 項目中的圖片
 .tinytip img{
-	vertical-align:middle;
-	box-shadow:0px 0px 10px 1px #000;	
-	border-radius:10px;
+    vertical-align:middle;
+    box-shadow:0px 0px 10px 1px #000;	
+    border-radius:10px;
 }
 ```
 
