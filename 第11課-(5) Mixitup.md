@@ -71,7 +71,7 @@ https://github.com/patrickkunka/mixitup
 }
 
 
-/* 設定卡片上緣分頖顏色 */
+/* 設定卡片上方分類顏色 */
 .mix {
     border:none;
     border-top: 15px solid currentColor;
