@@ -46,8 +46,6 @@ https://github.com/Sweefty/tinytip
 ```css
 @charset "utf-8";
 
-@charset "utf-8";
-
 // 可點擊的項目
 .element{
     cursor:pointer;	
