@@ -254,7 +254,7 @@ $(function(){
 
 
 
-##### 檔案名稱: js/jQueryRotate.js (可在http://beneposto.pl/jqueryrotate/下載)
+##### 檔案名稱: js/jQueryRotate.js (可在 http://beneposto.pl/jqueryrotate/ 下載)
 ```js
 // VERSION: 2.3 LAST UPDATE: 11.07.2013
 /*
