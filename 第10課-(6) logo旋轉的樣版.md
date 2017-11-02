@@ -217,116 +217,9 @@ div.footer{
 
 
 
-##### 檔案名稱: css/myDropdownMenu.css
-```css
-@charset "utf-8";
-
-/*---------------------------*/
-/* 定義導覽列                */
-/*---------------------------*/
-div.navbar{	   
-    width:800px;
-    height:40px;
-    line-height:40px;
-    box-sizing:border-box;
-    margin-left:auto;
-    margin-right:auto;
-    position:relative;
-    top:-50px;    
-}
-
-div.navbar ul{	 
-    margin:0;
-    padding:0;
-    list-style-type:none;	
-}
-
-div.navbar ul.left{
-    float:left;
-    margin-left:100px;
-}
-
-div.navbar ul.right{
-    float:right;
-    margin-right:100px;
-}
-
-/* 定義主選項 */
-div.navbar ul li{ 
-    width:100px;
-    text-align:center;	
-    float:left; 
-}
-
-/* 定義子選項 */
-div.navbar .dropdown-menu li{ 
-    width:140px;
-}
-
-div.navbar a{
-    cursor:pointer;
-    color:#fff;
-    text-decoration:none;
-    outline:none;
-}
-
-div.navbar a:hover{
-    color:#333;	
-}
-
-div.navbar li:hover .dropdown-menu li{
-    color:#fff;
-}
-
-div.navbar .dropdown-menu li:hover{
-    background-color:rgba(100, 100, 100, 0.9);
-}
-
-div.navbar .dropdown-menu{	
-    position:relative;
-    left:20px;
-    margin-top:0px;
-}
-
-div.navbar .dropdown-menu li{
-    background-color:rgba(150, 150, 150, 0.9);
-}
-
-div.navbar .dropdown-menu a:not(:last-child) li{
-    border-bottom:1px dotted #FFF;
-}
-```
 
 
-
-##### 檔案名稱: js/scripts.js (可在http://beneposto.pl/jqueryrotate/下載)
-```js
-var isOpened=true;
-
-$(function(){		
-    //===================================================
-    // 設定圖示被點擊
-    //===================================================
-    $('.header .logo').mousedown(function(){
-        if(isOpened){
-            //將導覽列收回
-            $(this).parent().stop().animate({marginTop:-80}, {duration:400, easing:'easeOutBounce'});
-            $(this).stop().animate({top:40}, {duration:400, easing:'easeOutBounce'});	
-            isOpened=false;
-        }else{
-            //將導覽列打開
-            $(this).parent().stop().animate({marginTop:0}, {duration:400, easing:'easeOutBounce'});
-            $(this).stop().animate({top:20}, {duration:400, easing:'easeOutBounce'});
-            isOpened=true;	
-        }
-    });
-    //---------------------------------------------------
-});	
-```
-
-
-
-##### 檔案名稱: js/myDropdownMenu.js
+##### 檔案名稱: js/scripts.js
 ```js
 var isOpened=true;
 
@@ -339,32 +232,29 @@ $(function(){
             //將導覽列收回			
             $(this).parent().stop().animate({marginTop:-80}, {duration:400, easing:'easeOutBounce'});
             $(this).stop().animate({top:40}, {duration:400, easing:'easeOutBounce'});
-			$(this).rotate({
-				angle: 0,
-				animateTo:180,
-				duration:1000
-			});				
-			isOpened=false;
+            $(this).rotate({
+                angle: 0,
+                animateTo:180,
+                duration:1000
+            });				
+            isOpened=false;
         }else{
             //將導覽列打開
             $(this).parent().stop().animate({marginTop:0}, {duration:400, easing:'easeOutBounce'});
             $(this).stop().animate({top:20}, {duration:400, easing:'easeOutBounce'});
-			$(this).rotate({
-				angle: -180,
-				animateTo:0
-			});				
+            $(this).rotate({
+                angle: -180,
+                animateTo:0
+            });				
             isOpened=true;	
         }
-    });
-	
-    //---------------------------------------------------
+    });	    
 });	
 ```
 
 
 
-
-##### 檔案名稱: js/jQueryRotate.js
+##### 檔案名稱: js/jQueryRotate.js (可在http://beneposto.pl/jqueryrotate/下載)
 ```js
 // VERSION: 2.3 LAST UPDATE: 11.07.2013
 /*
