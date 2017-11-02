@@ -5,7 +5,7 @@
 
 
 ##### 執行結果:
-![GitHub Logo](/imgs/results10-6.jpg)
+![GitHub Logo](/imgs/results10-6a.jpg)
 
 
 ##### 檔案放置方式:
