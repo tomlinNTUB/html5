@@ -52,8 +52,8 @@
                 <a href="#"><li>食物</li></a>
                 <a href="#"><li>文化</li></a>
             </ul>
-        </div> 
-   		 <!--~~~~~~~~~~~~-->          
+        </div> 
+        <!--~~~~~~~~~~~~-->          
     </div>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->  
     
@@ -66,8 +66,8 @@
         <h2 class="title">蔣勳：過得像個人，才能看到美</h2>
 
         <p>蔣勳曾說自己是用佈道的心情傳播對美的感動，現在他已經可說是美的宗教家。近幾年來，蔣勳走遍竹科與各地演講，到場的聽眾們彷彿都期待受到「開釋」，除了在席間對於充滿抑揚頓挫的感性分析頻頻點頭，發問的許多也都是已超乎美學的人生之問。事實上，這幾年來，蔣勳談的美，也有很大的變化。他過去比較偏向幫助大家賞析藝術之美，但他在與聽眾愈來愈多的互動中發現，許多上班族的餘暇時間已極度有限了，刻意附庸風雅地去欣賞音樂會、畫展已經沒有必要，重拾與周遭人的感情，重新找回「像個人樣」的生活方式，才能對美真正有所體會。本期美學學院專訪蔣勳，分享上班族也可以找回的生活之美。</p>
-
-		<canvas id="myChart" width="100" height="40"></canvas>
+	
+        <canvas id="myChart" width="100" height="40"></canvas>
 
         <h2>真正的美，作假不得 </h2>
 
@@ -174,13 +174,13 @@ html, body{
 /* 定義標題                   */
 /*---------------------------*/
 div.header{
-    width:100%;
-	min-width:800px;
+    width:100%;
+    min-width:800px;
     height:80px;
     margin-left:auto;
     margin-right:auto;
-    background:#CCC;
-	position:relative;
+    background:#CCC;
+    position:relative;
 }
 
 
@@ -188,51 +188,51 @@ div.header{
 /* 定義導覽列                 */
 /*---------------------------*/
 div.navbar{
-	width:800px;
-	position:absolute;
-	top:40px;
-	left:50%;
-	margin-left:-400px;
+    width:800px;
+    position:absolute;
+    top:40px;
+    left:50%;
+    margin-left:-400px;
 }
 
 
 div.navbar ul{
-	margin:0;
-	padding:0;
-	list-style-type:none;	
+    margin:0;
+    padding:0;
+    list-style-type:none;	
 }
 
 div.navbar ul.left{
-	float:left;
+    float:left;
 }
 
 
 div.navbar ul.right{
-	float:right;
+    float:right;
 }
 
 
 
 div.navbar ul li{
-	width:100px;
-	height:40px;
-	line-height:40px;
-	float:left;	
-	text-align:center;
-	margin-left:15px;
-	margin-right:15px;
-	color:#fff;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    float:left;	
+    text-align:center;
+    margin-left:15px;
+    margin-right:15px;
+    color:#fff;
 }
 
 
 img.logo{
-	position:absolute;
-	top:30px;
-	left:50%;
-	margin-left:-40px;
-	width:80px;
-	height:80px;
-	border-radius:40px;
+    position:absolute;
+    top:30px;
+    left:50%;
+    margin-left:-40px;
+    width:80px;
+    height:80px;
+    border-radius:40px;
 }
 
 /*---------------------------*/
@@ -274,4 +274,4 @@ div.footer{
 ##### 檔案名稱: Chart.bundle.js 
 ```
 在 <下載> 資料夾中下載, 或上網下載. 
-```html
+```
