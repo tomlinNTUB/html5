@@ -79,7 +79,7 @@
                         <img src="images/1.jpg">
                         <h4>真正的美，作假不得 </h4>                        
                     </div>
-    			</a>
+                </a>
                 
                 <a href="#">                
                     <div class="news">
@@ -236,8 +236,8 @@ div.content{
     box-sizing:border-box;
     background:#fff;
     text-align:justify;
-	letter-spacing:1px;
-	padding-bottom:40px;
+    letter-spacing:1px;
+    padding-bottom:40px;
 }
 
 div.content h2{
@@ -255,21 +255,21 @@ div.content h2:first-child{
 /* 定義最新消息                */
 /*---------------------------*/
 div.newsBar{
-	width:100%;	
-	margin-top:40px;
+    width:100%;	
+    margin-top:40px;
 }
 
 
 div.news{
-	width:230px;
-	height:300px;
-	box-sizing:border-box;
-	float:left;
-	border:1px solid #000;
-	overflow:hidden;	
-	position:relative;
-	color:#000;
-	box-shadow:0px 0px 2px 0px #000; 
+    width:230px;
+    height:300px;
+    box-sizing:border-box;
+    float:left;
+    border:1px solid #000;
+    overflow:hidden;	
+    position:relative;
+    color:#000;
+    box-shadow:0px 0px 2px 0px #000; 
 }
 
 div.newsBar a:nth-child(1) div.news,
@@ -278,17 +278,17 @@ div.newsBar a:nth-child(2) div.news{
 }
 
 div.news img{
-	padding-left:0;
-	padding-right:0;
+    padding-left:0;
+    padding-right:0;
 }
 
 div.news h4{
-	padding-left:10px;
-	padding-right:10px;
+    padding-left:10px;
+    padding-right:10px;
 }
 
 div.clear{	
-	clear:both;
+    clear:both;
 }
 
 
@@ -309,41 +309,46 @@ div.footer{
 
 ##### 檔案名稱: js/scripts.js
 ```js
-// JavaScript Document
+// 存標題列的狀態
 var isOpened=true;
 
 $(function(){
-	//------------------------------------	
-	$('.news').mouseenter(function(){
-		$(this).stop().animate({top:-10}, {duration:500, easing:'easeOutElastic'});
-	})	
-	
-	$('.news').mouseleave(function(){
-		$(this).stop().animate({top:0}, {duration:100});
-	})
-	
-	//------------------------------------
-	$('.logo').mousedown(function(){
-		if(isOpened){
-			$(this).parent().stop().animate({top:-80}, {duration:500, easing:'easeOutElastic'});
-			$(this).stop().animate({top:50}, {duration:500, easing:'easeOutElastic'});
+    //------------------------------------
+    // 標題列動畫
+    //------------------------------------	
+    $('.logo').mousedown(function(){
+        if(isOpened){
+            //標題列動畫
+            $(this).parent().stop().animate({top:-80}, {duration:500, easing:'easeOutElastic'});
 			
-			$(this).animate({}, {
-			    step: function(now,fx) {
-			    $(this).css('-webkit-transform','rotate('+180+'deg)'); 
-			    },
-			    duration:'slow'
-				},'linear'
-			);			
+            //logo移動
+            $(this).stop().animate({top:50}, {duration:500, easing:'easeOutElastic'});			
 			
-			isOpened=false;
-		}else{
-			$(this).parent().stop().animate({top:0}, {duration:100});
-			$(this).stop().animate({top:20}, {duration:500, easing:'easeOutElastic'});
-			isOpened=true;			
-		}
-	})		
+            isOpened=false;
+        }else{
+            //標題列動畫			
+            $(this).parent().stop().animate({top:0}, {duration:100});
+			
+            //logo移動			
+            $(this).stop().animate({top:20}, {duration:500, easing:'easeOutElastic'});			
 	
-			
+            isOpened=true;			
+        }
+    })		
+    //------------------------------------
+    
+    
+    
+    //------------------------------------	
+    // 最新消息動畫
+    //------------------------------------	
+    $('.news').mouseenter(function(){
+        $(this).stop().animate({top:-10}, {duration:500, easing:'easeOutElastic'});
+    })	
+	
+    $('.news').mouseleave(function(){
+        $(this).stop().animate({top:0}, {duration:100});
+    })
+    //------------------------------------
 });
 ```
