@@ -274,7 +274,7 @@ div.news{
 
 div.newsBar a:nth-child(1) div.news,
 div.newsBar a:nth-child(2) div.news{
-	margin-right:30px;
+    margin-right:30px;
 }
 
 div.news img{
