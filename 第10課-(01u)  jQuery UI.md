@@ -269,7 +269,7 @@ div.news{
     overflow:hidden;	
     position:relative;
     color:#000;
-    box-shadow:0px 0px 2px 0px #000; 
+    box-shadow:0px 0px 2px 1px #000; 
 }
 
 div.newsBar a:nth-child(1) div.news,
