@@ -289,22 +289,21 @@ div.newsBar a:nth-child(2) div.news{
 div.news img{
     padding-left:0;
     padding-right:0;
-	position:absolute;
+    position:absolute;
 }
 
 div.news h4{
-	width:100%;
-	height:50px;
-	line-height:50px;
-	text-align:center;
-	margin:0;
-	padding:0;
-	background:rgba(255,255,255,0.5);
-	color:#000;
-	position:absolute;
-	left:0;
-	bottom:-50px;
-	
+    width:100%;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+    margin:0;
+    padding:0;
+    background:rgba(255,255,255,0.5);
+    color:#000;
+    position:absolute;
+    left:0;
+    bottom:-50px;	
 }
 
 div.clear{	
@@ -343,8 +342,9 @@ $(function(){
 			
             //logo移動
             $(this).stop().animate({top:50}, {duration:500, easing:'easeOutElastic'});
+	    
             //logo旋轉						
-			$(this).rotate({angle:0, animateTo:180, duration:1000});		
+            $(this).rotate({angle:0, animateTo:180, duration:1000});		
 			
             isOpened=false;
         }else{
@@ -353,8 +353,9 @@ $(function(){
 			
             //logo移動			
             $(this).stop().animate({top:20}, {duration:500, easing:'easeOutElastic'});			
+	    
             //logo旋轉						
-			$(this).rotate({angle:-180, animateTo:0, duration:1000});
+            $(this).rotate({angle:-180, animateTo:0, duration:1000});
 				
             isOpened=true;			
         }
