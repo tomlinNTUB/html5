@@ -149,7 +149,7 @@ html, body{
     /*設定思源中文*/
     font-family: 'Noto Sans TC', sans-serif;
     font-weight: 400;	
-    background-color:#444;
+    background-color:#12150a;
     margin:0;	
 }
 
@@ -161,7 +161,7 @@ div.header{
     width:100%;	
     min-width:800px;
     height:80px;
-    background:rgba(153,153,153,0.7);    
+    background:#2d3854;    
     position:fixed;
     z-index:20;
     box-shadow:0px 1px 3px 1px #000;
@@ -317,7 +317,7 @@ div.clear{
 div.footer{
     height:100px;
     line-height:100px;
-    background:#CCC;
+    background:#bf901e;
     font-size:13px;
     text-align:center;
     letter-spacing:3px;
