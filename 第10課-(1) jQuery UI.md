@@ -15,7 +15,7 @@
    |
    |___<js>
    |     |___ scripts.js   
-   |	 
+   | 
    |___index.html   
 ```
 
