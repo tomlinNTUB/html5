@@ -16,6 +16,7 @@ https://bootswatch.com
 ##### Bookstrap 文件:
 ```
 http://getbootstrap.com/
+https://v4-alpha.getbootstrap.com/getting-started/introduction/
 ```
 
 
@@ -41,7 +42,7 @@ http://getbootstrap.com/
 @charset "utf-8";
 
 /*---------------------------*/
-/* 引用思源中文                */
+/* 引用思源中文               */
 /*---------------------------*/
 @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
@@ -49,8 +50,7 @@ http://getbootstrap.com/
 /*---------------------------*/
 /* 定義網頁                   */
 /*---------------------------*/
-html, body{    
-    /*設定思源中文*/
+html, body{
     font-family: 'Noto Sans TC', sans-serif;
 }
 
@@ -90,32 +90,6 @@ div.jumbotron p{
     background:#222;
     border:1px solid #fff;	
 }
-
-
-/*---------------------------*/
-/* 導覽列                     */
-/*---------------------------*/
-.nav li.active a{	
-    color:#FFC;	
-}
-
-.nav li.active a:hover{	
-    color:#ff0;		
-}
-
-.nav li.active a:visited{	
-    color:#ffa;		
-}
-
-
-/*---------------------------*/
-/* 下拉式選單                 */
-/*---------------------------*/
-ul.dropdown-menu li:hover a{
-    background:#8f3111;	
-    color:#ffc;
-}
-
 ```
 
 
@@ -129,11 +103,10 @@ $(function(){
     $('.thumbnail').mouseenter(function(){
         $(this).stop().animate(
             {
-                marginTop:-10,
-                backgroundColor:'#333'
+                marginTop:-10
             }, 
             {
-                duration:300,
+                duration:500,
                 easing:'easeOutBounce'
             });
         }
@@ -143,8 +116,7 @@ $(function(){
     $('.thumbnail').mouseleave(function(){			
         $(this).stop().animate(
             {
-                marginTop:0,
-                backgroundColor:'#222'
+                marginTop:0
             }, 
             {
                 duration:50
@@ -152,4 +124,17 @@ $(function(){
         }
     );		
 });
+```
+
+
+
+
+##### 檔案名稱: index.html
+```
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
+
+...
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>  
 ```
