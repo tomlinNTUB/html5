@@ -52,7 +52,7 @@ https://github.com/patrickkunka/mixitup
 
 
 
-##### 檔案名稱: css/style.css
+##### 檔案名稱: css/style.css (從官網的 <demos> 中, 任選一個資料夾, 複製其中的 styles.css)
 ```
 將其中所有 .container 改成 .container_mixitup
 ```
