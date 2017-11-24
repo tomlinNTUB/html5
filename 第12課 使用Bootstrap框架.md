@@ -27,16 +27,16 @@ http://getbootstrap.com/
 ```
    | 
    |___<css>
-   |     |___ main.css
-   |
+   |     |___ style.css   (原檔為空檔)
+   |
    |___<js>
-         |___ scripts.js   
+         |___ scripts.js  (原檔為空檔)
 ```
 
 
 
 
-##### 檔案名稱: css/main.css
+##### 檔案名稱: css/style.css
 ```css
 @charset "utf-8";
 
