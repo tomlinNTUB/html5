@@ -46,14 +46,12 @@ https://github.com/Sweefty/tinytip
 ```css
 @charset "utf-8";
 
-// 可點擊的項目
 .element{
     cursor:pointer;	
     border-bottom:1px dotted #333;	
 }
 
 
-// 項目中的圖片
 .tinytip img{
     vertical-align:middle;
     box-shadow:0px 0px 10px 1px #000;	
