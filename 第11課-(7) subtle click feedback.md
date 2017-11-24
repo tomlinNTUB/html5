@@ -123,9 +123,9 @@ https://github.com/codrops/ClickEffects
 <script src="js/my.classie.js"></script>   
 
 <script>
-    function delay (URL) {
-        setTimeout( function() { window.location = URL }, 500 );
-    }
+function delay (URL) {
+    setTimeout( function() { window.location = URL }, 500 );
+}
 </script>
 ```
 
