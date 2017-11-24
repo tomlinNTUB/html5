@@ -1,7 +1,7 @@
 # 第09課 互動設計
 
 
-## (5)  Chart.js圖表
+## (5)  Chart.js圖表 
 
 ##### 執行結果:
 ![GitHub Logo](/imgs/results09-5.jpg)
@@ -236,7 +236,7 @@ div.footer{
 
 
 
-### (3-2) my.Chart.bundle.js
+### (3-2) my.Chart.bundle.js  (可參考 http://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/)
 ```js
 var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
