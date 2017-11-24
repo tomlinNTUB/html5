@@ -120,7 +120,13 @@ https://github.com/codrops/ClickEffects
 . (加入js)
 <script src="js/modernizr.custom.js"></script>  
 <script src="js/classie.js"></script>   
-<script src="js/my.classie.js"></script>     
+<script src="js/my.classie.js"></script>   
+
+<script>
+    function delay (URL) {
+        setTimeout( function() { window.location = URL }, 500 );
+    }
+</script>
 ```
 
 
@@ -130,6 +136,6 @@ https://github.com/codrops/ClickEffects
 <!--~~~~~~~~~~~~~~~~~~-->
 <!-- feedback 測試    -->
 <!--~~~~~~~~~~~~~~~~~~-->
-<span class="cbutton cbutton--effect-jelena">蔣勳</span>
+<a href="javascript:delay('http://www.ntub.edu.tw')"> <span class="cbutton cbutton--effect-radomir">蔣勳</span> </a>
 <!--~~~~~~~~~~~~~~~~~~--> 
 ```
