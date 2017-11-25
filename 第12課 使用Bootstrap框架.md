@@ -42,7 +42,7 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 ### 檔案名稱: css/style.css
 ```css
 /*---------------------------*/
-/* 導覽列的商標標顏色           */
+/* 導覽列的商標標顏色          */
 /*---------------------------*/
 .navbar-custom .navbar-brand{
     color:#FFC;	
@@ -54,14 +54,14 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 
 
 /*---------------------------*/
-/* 導覽列的背景顏色             */
+/* 導覽列的背景顏色            */
 /*---------------------------*/
 .navbar-custom{
     background:#550000;	
 }
 
 /*---------------------------*/
-/* 導覽列的文字顏色             */
+/* 導覽列的文字顏色            */
 /*---------------------------*/
 .navbar-custom ul li a{
     color:#ccc;		
@@ -69,7 +69,7 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 
 
 /*-----------------------------------*/
-/* 導覽列的已被點擊過的項目文字顏色        */
+/* 導覽列的已被點擊過的項目文字顏色     */
 /*-----------------------------------*/
 .navbar-custom ul.navbar-nav li a:visited{
     color:#ccc;
@@ -80,7 +80,7 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 }
 
 /*---------------------------*/
-/* 目前所在項目設定             */
+/* 目前所在項目設定           */
 /*---------------------------*/
 .navbar-custom ul.navbar-nav li.active a{
     background:#000;
@@ -88,7 +88,7 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 }
 
 /*---------------------------*/
-/* 目前所在項目滑鼠移           */
+/* 目前所在項目滑鼠移          */
 /*---------------------------*/
 .navbar-custom ul.navbar-nav li.active a:hover{
     background:#000;
@@ -96,7 +96,7 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 }
 
 /*---------------------------*/
-/* 導覽列的項目滑鼠移入時        */
+/* 導覽列的項目滑鼠移入時      */
 /*---------------------------*/
 .navbar-custom ul.navbar-nav li a:hover{
     background:#801515;
@@ -104,46 +104,46 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 }
 
 /*---------------------------*/
-/* 導覽列的項目滑鼠點擊時   */
+/* 導覽列的項目滑鼠點擊時      */
 /*---------------------------*/
 .navbar-custom ul.navbar-nav li a:focus{
     background:#801515;
     color:#fff;
 }
 
-/*---------------------------*/
-/* 導覽列的下拉式項目滑鼠移入時   */
-/*---------------------------*/
+/*------------------------------*/
+/* 導覽列的下拉式項目滑鼠移入時    */
+/*------------------------------*/
 .navbar-custom ul.navbar-nav li.dropdown a:hover{
     background:#801515;
     color:#fff;
 }
 
-/*---------------------------*/
-/* 導覽列的下拉式項目滑鼠點擊時   */
-/*---------------------------*/
+/*------------------------------*/
+/* 導覽列的下拉式項目滑鼠點擊時    */
+/*------------------------------*/
 .navbar-custom ul.navbar-nav li.dropdown a:focus{
     background:#801515;
     color:#fff;
 }
 
 /*---------------------------*/
-/* 下拉式選單背景色             */
+/* 下拉式選單背景色            */
 /*---------------------------*/
 .navbar-custom ul.dropdown-menu{
     background:#FFaaaa;	
 }
 
 /*---------------------------*/
-/* 下拉式選單文字色             */
+/* 下拉式選單文字色            */
 /*---------------------------*/
 .navbar-custom ul.dropdown-menu li a{
     color:#000;	
 }
 
-/*---------------------------*/
-/* 下拉式選單滑鼠移入時文字色     */
-/*---------------------------*/
+/*------------------------------*/
+/* 下拉式選單滑鼠移入時文字色      */
+/*------------------------------*/
 .navbar-custom ul.dropdown-menu li a:hover{
     color:#ddd;	
 }
