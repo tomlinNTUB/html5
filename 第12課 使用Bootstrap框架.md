@@ -31,7 +31,7 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
    |     |___ style.css   (原檔為空檔)
    |
    |___<js>
-   |      |___ scripts.js  (原檔為空檔)
+   |     |___ scripts.js  (原檔為空檔)
    |
    |___ index.html  (修改)
 ```
@@ -45,11 +45,11 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 /* 導覽列的商標標顏色           */
 /*---------------------------*/
 .navbar-custom .navbar-brand{
-	color:#FFC;	
+    color:#FFC;	
 }
 
 .navbar-custom .navbar-brand:hover{
-	color:#FF0;	
+    color:#FF0;	
 }
 
 
@@ -57,14 +57,14 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 /* 導覽列的背景顏色             */
 /*---------------------------*/
 .navbar-custom{
-	background:#550000;	
+    background:#550000;	
 }
 
 /*---------------------------*/
 /* 導覽列的文字顏色             */
 /*---------------------------*/
 .navbar-custom ul li a{
-	color:#ccc;		
+    color:#ccc;		
 }
 
 
@@ -72,80 +72,80 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 /* 導覽列的已被點擊過的項目文字顏色        */
 /*-----------------------------------*/
 .navbar-custom ul.navbar-nav li a:visited{
-	color:#ccc;
+    color:#ccc;
 }
 
 .navbar-custom ul.dropdown-menu li a:visited{
-	color:#000;	
+    color:#000;	
 }
 
 /*---------------------------*/
 /* 目前所在項目設定             */
 /*---------------------------*/
 .navbar-custom ul.navbar-nav li.active a{
-	background:#000;
-	color:#ccc;
+    background:#000;
+    color:#ccc;
 }
 
 /*---------------------------*/
 /* 目前所在項目滑鼠移           */
 /*---------------------------*/
 .navbar-custom ul.navbar-nav li.active a:hover{
-	background:#000;
-	color:#fff;
+    background:#000;
+    color:#fff;
 }
 
 /*---------------------------*/
 /* 導覽列的項目滑鼠移入時        */
 /*---------------------------*/
 .navbar-custom ul.navbar-nav li a:hover{
-	background:#801515;
-	color:#fff;	
+    background:#801515;
+    color:#fff;	
 }
 
 /*---------------------------*/
 /* 導覽列的項目滑鼠點擊時   */
 /*---------------------------*/
 .navbar-custom ul.navbar-nav li a:focus{
-	background:#801515;
-	color:#fff;
+    background:#801515;
+    color:#fff;
 }
 
 /*---------------------------*/
 /* 導覽列的下拉式項目滑鼠移入時   */
 /*---------------------------*/
 .navbar-custom ul.navbar-nav li.dropdown a:hover{
-	background:#801515;
-	color:#fff;
+    background:#801515;
+    color:#fff;
 }
 
 /*---------------------------*/
 /* 導覽列的下拉式項目滑鼠點擊時   */
 /*---------------------------*/
 .navbar-custom ul.navbar-nav li.dropdown a:focus{
-	background:#801515;
-	color:#fff;
+    background:#801515;
+    color:#fff;
 }
 
 /*---------------------------*/
 /* 下拉式選單背景色             */
 /*---------------------------*/
 .navbar-custom ul.dropdown-menu{
-	background:#FFaaaa;	
+    background:#FFaaaa;	
 }
 
 /*---------------------------*/
 /* 下拉式選單文字色             */
 /*---------------------------*/
 .navbar-custom ul.dropdown-menu li a{
-	color:#000;	
+    color:#000;	
 }
 
 /*---------------------------*/
 /* 下拉式選單滑鼠移入時文字色     */
 /*---------------------------*/
 .navbar-custom ul.dropdown-menu li a:hover{
-	color:#ddd;	
+    color:#ddd;	
 }
 ```
 
