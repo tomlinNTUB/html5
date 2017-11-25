@@ -55,40 +55,84 @@ html, body{
 }
 
 
-
 /*---------------------------*/
-/* 大標題                     */
+/* 導覽列的商標標顏色           */
 /*---------------------------*/
-div.jumbotron{
-    background:#8f3111;
-    color:#ffc;	
+.navbar-brand{
+	color:#FFC;	
 }
 
-
-div.jumbotron h2{
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size:26px;	
-    font-weight:400;	
-}
-
-div.jumbotron p{
-    font-family: 'Noto Sans TC', sans-serif;
-    font-size:16px;	
-    font-weight:350;
+.navbar-brand:hover{
+	color:#FF0;	
 }
 
 
 /*---------------------------*/
-/* 按鈕                      */
+/* 導覽列的背景顏色             */
 /*---------------------------*/
-.btn-primary{
-    background:#111;
-    border:1px solid #fff;
+nav.navbar{
+	background:#550000;	
 }
 
-.btn-primary:hover{
-    background:#222;
-    border:1px solid #fff;	
+/*---------------------------*/
+/* 導覽列的文字顏色            */
+/*---------------------------*/
+nav.navbar ul li a{
+	color:#ccc;		
+}
+
+/*---------------------------*/
+/* 導覽列的項目滑鼠移入時      */
+/*---------------------------*/
+nav.navbar ul li a:hover{
+	background:#801515;
+	color:#fff;	
+}
+
+/*---------------------------*/
+/* 導覽列的項目滑鼠點擊時      */
+/*---------------------------*/
+nav.navbar ul li a:focus{
+	background:#801515;
+	color:#fff;
+}
+
+/*---------------------------*/
+/* 導覽列的下拉式項目滑鼠移入時 */
+/*---------------------------*/
+nav.navbar ul li.dropdown a:hover{
+	background:#801515;
+	color:#fff;
+}
+
+/*---------------------------*/
+/* 導覽列的下拉式項目滑鼠點擊時   */
+/*---------------------------*/
+nav.navbar ul li.dropdown a:focus{
+	background:#801515;
+	color:#fff;
+}
+
+
+/*---------------------------*/
+/* 下拉式選單背景色             */
+/*---------------------------*/
+ul.dropdown-menu{
+	background:#FFaaaa;	
+}
+
+/*---------------------------*/
+/* 下拉式選單文字色             */
+/*---------------------------*/
+nav.navbar ul.dropdown-menu li a{
+	color:#000;	
+}
+
+/*---------------------------*/
+/* 下拉式選單滑鼠移入時文字色     */
+/*---------------------------*/
+nav.navbar ul.dropdown-menu li a:hover{
+	color:#ddd;	
 }
 ```
 
