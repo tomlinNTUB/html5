@@ -25,7 +25,7 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 ![GitHub Logo](/imgs/results12-1.jpg)
 
 
-##### 檔案放置方式:
+### 檔案放置方式:
 ```
    | 
    |___<css>
@@ -191,14 +191,20 @@ $(function(){
 
 
 
-##### 檔案名稱: index.html
+### 檔案名稱: index.html
 ```
 (加入css)
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
 
 
+
 (修改, 加入navbar-custom)
-<nav class="navbar navbar-default navbar-custom"  role="navigation">
+將原內容
+<nav class="navbar navbar-default" role="navigation">
+
+改成:
+<nav class="navbar navbar-default navbar-custom" role="navigation">
+
 
 
 (加入js)
