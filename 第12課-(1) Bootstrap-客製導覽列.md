@@ -30,9 +30,6 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
    | 
    |___<css>
    |     |___ style.css   (原檔為空檔)
-   |
-   |___<js>
-   |     |___ scripts.js  (原檔為空檔)
    |
    |___ index.html  (修改)
 ```
@@ -156,58 +153,12 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 
 
 
-### 檔案名稱: js/scripts.js
-```js
-// Easing函數使用: easings.net/zh-tw
-
-$(function(){
-    // 滑鼠移入	
-    $('.thumbnail').mouseenter(function(){
-        $(this).stop().animate(
-            {
-                marginTop:-10
-            }, 
-            {
-                duration:500,
-                easing:'easeOutBounce'
-            });
-        }
-    );	
-
-    // 滑鼠移出	
-    $('.thumbnail').mouseleave(function(){			
-        $(this).stop().animate(
-            {
-                marginTop:0
-            }, 
-            {
-                duration:50
-            });
-        }
-    );		
-});
-```
-
-
-
-
 ### 檔案名稱: index.html
 ```
-(加入css)
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> 
-
-
-
 (修改, 加入navbar-custom)
 將原內容
 <nav class="navbar navbar-default" role="navigation">
 
 改成:
 <nav class="navbar navbar-default navbar-custom" role="navigation">
-
-
-
-(加入js)
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>  
 ```
