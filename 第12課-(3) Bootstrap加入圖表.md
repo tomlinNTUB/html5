@@ -16,7 +16,7 @@
    |     |___ Chart.bundle.js
    |     |___ my.Chart.bundle.js   
    |   
-   |___ index.html  (修改)
+   |___ index.html 
 ```
 
 
