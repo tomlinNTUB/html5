@@ -191,7 +191,7 @@ html, body{
         <div class="navbar-header">					 
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-          </button> <a class="navbar-brand" href="#">Brand</a>
+          </button> <a class="navbar-brand" href="#">商標</a>
         </div>
 	<!-- ..... -->
 			
@@ -200,34 +200,34 @@ html, body{
           <ul class="nav navbar-nav">
 	
             <li class="active">
-              <a href="#">Link</a>
+              <a href="#">連結1</a>
             </li>
 	
             <li>
-              <a href="#">Link</a>
+              <a href="#">連結2</a>
             </li>	
             
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">下拉式選單1<strong class="caret"></strong></a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="#">Action</a>
+                  <a href="#">選單項目1-1</a>
                 </li>
                 <li>
-                  <a href="#">Another action</a>
+                  <a href="#">選單項目1-2</a>
                 </li>
                 <li>
-                  <a href="#">Something else here</a>
+                  <a href="#">選單項目1-3</a>
                 </li>
                 <li class="divider">
                 </li>
                 <li>
-                  <a href="#">Separated link</a>
+                  <a href="#">選單項目1-4</a>
                 </li>
                 <li class="divider">
                 </li>
                 <li>
-                  <a href="#">One more separated link</a>
+                  <a href="#">選單項目1-5</a>
                 </li>
               </ul>
             </li>
@@ -243,7 +243,7 @@ html, body{
             </div> 
 	
             <button type="submit" class="btn btn-default">
-              Submit
+              送出
             </button>
           </form>
           <!-- ..... -->	
@@ -252,25 +252,25 @@ html, body{
           <!-- ..... -->	
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="#">Link</a>
+              <a href="#">連結3</a>
             </li>
 
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">下拉式選單2<strong class="caret"></strong></a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="#">Action</a>
+                  <a href="#">選單項目2-1</a>
                 </li>
                 <li>
-                  <a href="#">Another action</a>
+                  <a href="#">選單項目2-2</a>
                 </li>
                 <li>
-                  <a href="#">Something else here</a>
+                  <a href="#">選單項目2-3</a>
                 </li>
                 <li class="divider">
                 </li>
                 <li>
-                  <a href="#">Separated link</a>
+                  <a href="#">選單項目2-4</a>
                 </li>
               </ul>
             </li>
