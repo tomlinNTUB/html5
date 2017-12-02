@@ -27,7 +27,7 @@
 ```
 
 
-### 檔案名稱: js/my.Chart.bundle.js
+### 檔案名稱: js/my.Chart.bundle.js (可參考 http://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/)
 ```js
 var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
