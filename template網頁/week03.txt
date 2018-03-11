@@ -21,7 +21,7 @@
     <div class="container">
     <!--===================================-->           
     
-   	    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+        <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
         <div class="content">
             <h1 class="title">蔣勳：過得像個人，才能看到美</h1>
     
@@ -61,7 +61,7 @@
         </div>        
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->  
 
-	<!--===================================-->        
+    <!--===================================-->        
     </div> 
     <!--===================================-->        
 </body>
@@ -87,10 +87,11 @@
 html, body{
     /*設定思源中文*/
     font-family: 'Noto Sans TC', sans-serif;
-	font-size:17px;
+    font-size:17px;
     background:#444;
     margin:0;	
 }
+
 
 
 /*---------------------------*/
@@ -98,7 +99,7 @@ html, body{
 /*---------------------------*/
 div.header{
     width:100%;
-	min-width:800px;
+    min-width:800px;
     height:80px;
     margin-left:auto;
     margin-right:auto;
@@ -106,14 +107,15 @@ div.header{
 }
 
 
+
 /*---------------------------*/
 /* 定義容器                  */
 /*---------------------------*/
 div.container{
-	width:800px;
+    width:800px;
     box-sizing:border-box;	
-	margin-left:auto;
-	margin-right:auto;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 
@@ -135,7 +137,6 @@ div.content{
 
 
 
-
 /*---------------------------*/
 /* 定義表尾                  */
 /*---------------------------*/
@@ -146,3 +147,4 @@ div.footer{
     font-size:14px;
     text-align:center;    
 }
+
