@@ -237,12 +237,12 @@ div.newsbar{
 
 
 div.news{
+    font-family: 'Crimson Text', serif, 'cwTeXFangSong';
+    font-weight:550;
     width:220px;
     height:280px;
     text-align:justify;
     float:left;	
-    font-family: 'Crimson Text', serif, 'cwTeXFangSong';
-    font-weight:550;
 }
 
 
