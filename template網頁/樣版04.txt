@@ -33,7 +33,7 @@
     
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
         <div class="content">
-        	<div class="left">
+            <div class="left">
             幾年來，幾乎所有的竹科企業我都去過了，和企業的人有所接觸後，我才知道我過去有「知識偏執」的狀況，但我並沒有真正認識30歲上下的職場工作人員。竹科有一家上市公司的員工平均年齡是31.8歲，他們都是最優秀大學畢業的菁英。 在開始工作的前10年，是人生很重要的階段，但他們卻通常是11點以後才下班。要戀愛，可能沒有時間戀愛；要買房子，就用世俗的固定模式買房子，找一個大家認為有名的設計師；要結婚，但用很草率的方式結婚。我知道很多工程師經由輔導去娶烏克蘭新娘，他們可能連戀愛的時間、耐心都沒有。 我原來希望的藝術是能恢復人的品味和人的感覺，但他們接觸了這些東西卻沒有感覺，像有些企業會固定舉辦一些音樂會，但他們卻沒有辦法進入那個世界。所以我現在希望向大家說的是「人的原點」，當我們失去了人的原點，談所有的美都是假的。
             </div>
             
@@ -83,7 +83,7 @@
                 <p>現在台灣過週休二日，好像非要全家去吃一個餐廳、到哪裡去看薰衣草、喝咖啡，全部整套，然後全部的人塞車塞到一肚子氣。我們對休閒的定義是滿僵化的，好像一定要別人服務我們才算是休閒。我自己假日的時候喜歡自己一個人做4菜1湯，因為我覺得做菜好快樂。我也很喜歡在週休二日洗我自己最喜歡的純棉的、純麻的襯衫，絕不丟給洗衣機，因為我覺得觸感好極了。看到它們晾在陽光裡、在風裡飄，白的好漂亮，我的週休二日就很快樂，因為我回來做自己。 </p>
         
                 <p>在7、8月，民生東路六段有全台北最漂亮的大花紫薇，即使有車可開，那時候我也絕對要走路，這些是讓我最快樂的事，這才是人。如果我們吃得不像人，穿得不像人，生活都失去了人的意義，那談藝術太遙遠。我談我的生活，並不希望別人學我。每個人是不一樣的，不要隨便相信價格、人云亦云，生活中的美學，應該是不按照別人安排的。每個人應該用自己的生命，去創造自己的生活美學出來。</p>
-			</div>                
+            </div>                
         </div>
         <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->      
         
@@ -226,25 +226,25 @@ div.content{
 
 
 div.left{
-	width:150px;	
-	box-sizing:border-box;
-	float:left;
-	font-size:14px;
-	padding:30px 10px;	
+    width:150px;	
+    box-sizing:border-box;
+    float:left;
+    font-size:14px;
+    padding:30px 10px;	
 }
 
 div.right{
-	width:800px;
-	box-sizing:border-box;
-	float:left;
-	background:#CCC;
-	padding:0 50px;
+    width:800px;
+    box-sizing:border-box;
+    float:left;
+    background:#CCC;
+    padding:0 50px;
 }
 
 div.content:after{
-	content:'';
-	display:block;
-	clear:both;
+    content:'';
+    display:block;
+    clear:both;
 }
 
 
@@ -258,8 +258,8 @@ div.newsbar{
 
 div.newsbar:after{
     content:'';
-	display:block;
-	clear:both;
+    display:block;
+    clear:both;
 }
 
 div.news{
@@ -300,7 +300,7 @@ div.footer{
     height:60px;    
     line-height:60px;
     background:#333;
-	color:#fff;
+    color:#fff;
     font-size:14px;
     text-align:center;    
 }
