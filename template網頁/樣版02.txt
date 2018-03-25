@@ -155,13 +155,13 @@ div.navbar{
     margin:40px auto 0px auto;	
 }
 
-ul{
+div.navbar ul{
     margin:0;
     padding:0;
     list-style-type:none;
 }
 
-ul li{
+div.navbar ul li{
     width:150px;
     height:40px;
     line-height:40px;	
@@ -169,11 +169,11 @@ ul li{
     float:left;
 }
 
-ul li:nth-child(2){
+div.navbar ul li:nth-child(2){
     margin-right:100px;
 }
 
-ul li a{
+div.navbar ul li a{
     text-decoration:none;
     color:#fff;	
 }
