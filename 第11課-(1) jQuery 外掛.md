@@ -1,4 +1,4 @@
-# 第11課 jQuery 外掛
+# 第11課 jQuery 外掛 - fancybox
 
 
 ## (1) fancybox
