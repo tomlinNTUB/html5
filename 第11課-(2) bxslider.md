@@ -54,26 +54,6 @@ https://github.com/stevenwanderski/bxslider-4
 ##### 檔案名稱: css/my.jquery.bxslider.css
 ```css
 @charset "utf-8";
-
-.bx-wrapper .bx-loading {
-    background: url(../images/bx_loader.gif) center center no-repeat #ffffff;
-}
-
-.bx-wrapper .bx-prev {
-    background: url(../images/controls.png) no-repeat 0 -32px;
-}
-
-.bx-wrapper .bx-next {
-    background: url(../images/controls.png) no-repeat -43px -32px;
-}
-
-.bx-wrapper .bx-controls-auto .bx-start {
-    background: url(../images/controls.png) -86px -11px no-repeat;
-}
-
-.bx-wrapper .bx-controls-auto .bx-stop {
-    background: url(../images/controls.png) -86px -44px no-repeat;
-}
 ```
 
 
