@@ -226,7 +226,7 @@ div.right{
     box-sizing:border-box;
     float:left;
     background:#CCC;
-    padding:20px 50px 50px 30px;
+    padding:20px 50px 30px 50px;
 }
 
 
