@@ -187,7 +187,7 @@ img.logo{
 div.content{
     width:950px;
     box-sizing:border-box;	
-    background:#fff;
+    background:#CCC;
     text-align:justify;   
 		
     margin-left:auto;
@@ -225,7 +225,7 @@ div.right{
     width:800px;
     box-sizing:border-box;
     float:left;
-    background:#CCC;
+    background:#FFF;
     padding:20px 50px 30px 50px;
 }
 
