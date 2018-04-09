@@ -1,7 +1,4 @@
-# 第09課 互動設計
-
-
-## (5)  Chart.js圖表 
+# 第12課-(2) Chart.js圖表
 
 ##### 執行結果:
 ![GitHub Logo](/imgs/results09-5.jpg)
