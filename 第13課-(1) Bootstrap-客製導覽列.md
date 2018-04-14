@@ -45,11 +45,11 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 /*==========================================*/
 
 :root{
-	--primary-1:#FFAAAA;
-	--primary-2:#D46A6A;
-	--primary-3:#AA3939;
-	--primary-4:#801515;
-	--primary-5:#550000;	
+    --primary-1:#FFAAAA;
+    --primary-2:#D46A6A;
+    --primary-3:#AA3939;
+    --primary-4:#801515;
+    --primary-5:#550000;	
 }
 
 
@@ -71,7 +71,7 @@ nav.navbar{
 /*---------------------------*/
 nav.navbar a.navbar-brand{
     color:var(--primary-1);
-	font-weight:800;
+    font-weight:800;
 }
 
 nav.navbar a.navbar-brand:hover{
@@ -128,16 +128,16 @@ nav.navbar ul.navbar-nav li.dropdown a.nav-link:hover{
 /* 下拉式選單                     */
 /*------------------------------*/
 .dropdown-menu{
-	background:var(--primary-2);	
+    background:var(--primary-2);	
 }
 
 .dropdown-menu a{
-	color:var(--primary-5);	
+    color:var(--primary-5);	
 }
 
 .dropdown-menu a:hover{
-	background:var(--primary-1);
-	color:#fff;
+    background:var(--primary-1);
+    color:#fff;
 }
 
 
@@ -145,22 +145,22 @@ nav.navbar ul.navbar-nav li.dropdown a.nav-link:hover{
 /* 輸入項目及按鈕                  */
 /*------------------------------*/
 input[type="text"]:focus{   
-  border-color: rgba(255, 255, 255, 0.8);
-  box-shadow: none;
-  outline: 0 none;
+    border-color: rgba(255, 255, 255, 0.8);
+    box-shadow: none;
+    outline: 0 none;
 }
 
 .navbar form button,
 .navbar form button:visited,
 .navbar form button:focus{
-	background:var(--primary-3);
-	color:#fff;
-	border:none;
+    background:var(--primary-3);
+    color:#fff;
+    border:none;
 }
 
 .navbar form button:hover{
-	background:var(--primary-2);
-	color:#000;
+    background:var(--primary-2);
+    color:#000;
 }
 ```
 
