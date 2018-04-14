@@ -41,125 +41,126 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 ### 檔案名稱: css/style.css
 ```css
 /*==========================================*/
+/* 設定選用顏色                               */
+/*==========================================*/
+
+:root{
+	--primary-1:#FFAAAA;
+	--primary-2:#D46A6A;
+	--primary-3:#AA3939;
+	--primary-4:#801515;
+	--primary-5:#550000;	
+}
+
+
+/*==========================================*/
 /* 客製化導覽列                              */
 /*==========================================*/
 
 /*---------------------------*/
-/* 導覽列的商標標顏色          */
-/*---------------------------*/
-.navbar-custom .navbar-brand{
-    color:#FFC;	
-}
-
-.navbar-custom .navbar-brand:hover{
-    color:#FF0;	
-}
-
-
-/*---------------------------*/
 /* 導覽列的背景顏色            */
 /*---------------------------*/
-.navbar-custom{
-    background:#550000;	
+nav.navbar{
+    background:var(--primary-5);	
 }
+
+
 
 /*---------------------------*/
-/* 導覽列的文字顏色            */
+/* 導覽列的商標                */
 /*---------------------------*/
-.navbar-custom ul li a{
-    color:#ccc;		
+nav.navbar a.navbar-brand{
+    color:var(--primary-1);
+	font-weight:800;
+}
+
+nav.navbar a.navbar-brand:hover{
+    color:#fff;
 }
 
 
-/*-----------------------------------*/
-/* 導覽列的已被點擊過的項目文字顏色     */
-/*-----------------------------------*/
-.navbar-custom ul.navbar-nav li a:visited{
-    color:#ccc;
+/*-------------------------*/
+/* 導覽列的項目              */
+/*-------------------------*/
+nav.navbar ul.navbar-nav li.nav-item a.nav-link{   
+    color:var(--primary-2);
 }
 
-.navbar-custom ul.dropdown-menu li a:visited{
-    color:#000;	
+nav.navbar ul.navbar-nav li.nav-item a.nav-link:hover{   
+    color:#fff !important;
 }
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link:focus{
+    color:var(--primary-2);
+}
+
+nav.navbar ul.navbar-nav li.nav-item a.nav-link:visited{
+    color:var(--primary-2);
+}
+
+
 
 /*---------------------------*/
 /* 目前所在項目設定           */
 /*---------------------------*/
-.navbar-custom ul.navbar-nav li.active a{
-    background:#000;
-    color:#ccc;
+nav.navbar ul.navbar-nav li.nav-item.active a.nav-link{
+    color:var(--primary-1);
 }
 
-/*---------------------------*/
-/* 目前所在項目滑鼠移          */
-/*---------------------------*/
-.navbar-custom ul.navbar-nav li.active a:hover{
-    background:#000;
+nav.navbar ul.navbar-nav li.nav-item.active a.nav-link:hover{
     color:#fff;
 }
 
-/*---------------------------*/
-/* 導覽列的項目滑鼠移入時      */
-/*---------------------------*/
-.navbar-custom ul.navbar-nav li a:hover{
-    background:#801515;
-    color:#fff;	
+
+/*------------------------------*/
+/* 導覽列的下拉式項目              */
+/*------------------------------*/
+nav.navbar ul.navbar-nav li.dropdown a.nav-link{
+    color:var(--primary-2);
 }
 
-/*---------------------------*/
-/* 導覽列的項目滑鼠點擊時      */
-/*---------------------------*/
-.navbar-custom ul.navbar-nav li a:focus{
-    background:#801515;
+nav.navbar ul.navbar-nav li.dropdown a.nav-link:hover{
     color:#fff;
 }
 
-/*------------------------------*/
-/* 導覽列的下拉式項目滑鼠移入時    */
-/*------------------------------*/
-.navbar-custom ul.navbar-nav li.dropdown a:hover{
-    background:#801515;
-    color:#fff;
-}
 
 /*------------------------------*/
-/* 導覽列的下拉式項目滑鼠點擊時    */
+/* 下拉式選單                     */
 /*------------------------------*/
-.navbar-custom ul.navbar-nav li.dropdown a:focus{
-    background:#801515;
-    color:#fff;
+.dropdown-menu{
+	background:var(--primary-2);	
 }
 
-/*---------------------------*/
-/* 下拉式選單背景色            */
-/*---------------------------*/
-.navbar-custom ul.dropdown-menu{
-    background:#FFaaaa;	
+.dropdown-menu a{
+	color:var(--primary-5);	
 }
 
-/*---------------------------*/
-/* 下拉式選單文字色            */
-/*---------------------------*/
-.navbar-custom ul.dropdown-menu li a{
-    color:#000;	
+.dropdown-menu a:hover{
+	background:var(--primary-1);
+	color:#fff;
 }
 
+
 /*------------------------------*/
-/* 下拉式選單滑鼠移入時文字色      */
+/* 輸入項目及按鈕                  */
 /*------------------------------*/
-.navbar-custom ul.dropdown-menu li a:hover{
-    color:#ddd;	
+input[type="text"]:focus{   
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: none;
+  outline: 0 none;
+}
+
+.navbar form button,
+.navbar form button:visited,
+.navbar form button:focus{
+	background:var(--primary-3);
+	color:#fff;
+	border:none;
+}
+
+.navbar form button:hover{
+	background:var(--primary-2);
+	color:#000;
 }
 ```
 
-
-
-### 檔案名稱: index.html
-```
-(修改, 加入navbar-custom)
-將原內容
-<nav class="navbar navbar-default" role="navigation">
-
-改成:
-<nav class="navbar navbar-default navbar-custom" role="navigation">
-```
