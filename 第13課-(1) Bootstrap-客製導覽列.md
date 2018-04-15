@@ -58,10 +58,21 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 /*==========================================*/
 
 /*---------------------------*/
-/* 導覽列的背景顏色            */
+/* 導覽列的背景顏色             */
 /*---------------------------*/
 nav.navbar{
     background:var(--primary-5);	
+}
+
+
+
+/*---------------------------*/
+/* 導覽列收合的menu            */
+/*---------------------------*/
+.navbar .navbar-toggler{
+    background:var(--primary-3);	
+    border:none;
+    outline:0 none;
 }
 
 
