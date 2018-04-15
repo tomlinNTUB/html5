@@ -43,7 +43,6 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 /*==========================================*/
 /* 設定選用顏色                               */
 /*==========================================*/
-
 :root{
     --primary-1:#FFAAAA;
     --primary-2:#D46A6A;
@@ -56,14 +55,12 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 /*==========================================*/
 /* 客製化導覽列                              */
 /*==========================================*/
-
 /*---------------------------*/
 /* 導覽列的背景顏色             */
 /*---------------------------*/
 nav.navbar{
     background:var(--primary-5);	
 }
-
 
 
 /*---------------------------*/
@@ -74,7 +71,6 @@ nav.navbar{
     border:none;
     outline:0 none;
 }
-
 
 
 /*---------------------------*/
@@ -108,7 +104,6 @@ nav.navbar ul.navbar-nav li.nav-item a.nav-link:focus{
 nav.navbar ul.navbar-nav li.nav-item a.nav-link:visited{
     color:var(--primary-2);
 }
-
 
 
 /*---------------------------*/
