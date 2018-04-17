@@ -44,11 +44,11 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 /* 設定選用顏色                               */
 /*==========================================*/
 :root{
-    --primary-1:#FFAAAA;
-    --primary-2:#D46A6A;
-    --primary-3:#AA3939;
-    --primary-4:#801515;
-    --primary-5:#550000;	
+    --nav-1:#FFAAAA;
+    --nav-2:#D46A6A;
+    --nav-3:#AA3939;
+    --nav-4:#801515;
+    --nav-5:#550000;	
 }
 
 
@@ -59,7 +59,7 @@ https://v4-alpha.getbootstrap.com/getting-started/introduction/
 /* 導覽列的背景顏色             */
 /*---------------------------*/
 nav.navbar{
-    background:var(--primary-5);	
+    background:var(--nav-5);	
 }
 
 
@@ -67,7 +67,7 @@ nav.navbar{
 /* 導覽列收合的menu            */
 /*---------------------------*/
 .navbar .navbar-toggler{
-    background:var(--primary-3);	
+    background:var(--nav-3);	
     border:none;
     outline:0 none;
 }
@@ -77,7 +77,7 @@ nav.navbar{
 /* 導覽列的商標                */
 /*---------------------------*/
 nav.navbar a.navbar-brand{
-    color:var(--primary-1);
+    color:var(--nav-1);
     font-weight:800;
 }
 
@@ -90,7 +90,7 @@ nav.navbar a.navbar-brand:hover{
 /* 導覽列的項目              */
 /*-------------------------*/
 nav.navbar ul.navbar-nav li.nav-item a.nav-link{   
-    color:var(--primary-2);
+    color:var(--nav-2);
 }
 
 nav.navbar ul.navbar-nav li.nav-item a.nav-link:hover{   
@@ -98,11 +98,11 @@ nav.navbar ul.navbar-nav li.nav-item a.nav-link:hover{
 }
 
 nav.navbar ul.navbar-nav li.nav-item a.nav-link:focus{
-    color:var(--primary-2);
+    color:var(--nav-2);
 }
 
 nav.navbar ul.navbar-nav li.nav-item a.nav-link:visited{
-    color:var(--primary-2);
+    color:var(--nav-2);
 }
 
 
@@ -110,7 +110,7 @@ nav.navbar ul.navbar-nav li.nav-item a.nav-link:visited{
 /* 目前所在項目設定           */
 /*---------------------------*/
 nav.navbar ul.navbar-nav li.nav-item.active a.nav-link{
-    color:var(--primary-1);
+    color:var(--nav-1);
 }
 
 nav.navbar ul.navbar-nav li.nav-item.active a.nav-link:hover{
@@ -122,7 +122,7 @@ nav.navbar ul.navbar-nav li.nav-item.active a.nav-link:hover{
 /* 導覽列的下拉式項目              */
 /*------------------------------*/
 nav.navbar ul.navbar-nav li.dropdown a.nav-link{
-    color:var(--primary-2);
+    color:var(--nav-2);
 }
 
 nav.navbar ul.navbar-nav li.dropdown a.nav-link:hover{
@@ -134,15 +134,15 @@ nav.navbar ul.navbar-nav li.dropdown a.nav-link:hover{
 /* 下拉式選單                     */
 /*------------------------------*/
 .dropdown-menu{
-    background:var(--primary-2);	
+    background:var(--nav-2);	
 }
 
 .dropdown-menu a{
-    color:var(--primary-5);	
+    color:var(--nav-5);	
 }
 
 .dropdown-menu a:hover{
-    background:var(--primary-1);
+    background:var(--nav-1);
     color:#fff;
 }
 
@@ -159,13 +159,13 @@ input[type="text"]:focus{
 .navbar form button,
 .navbar form button:visited,
 .navbar form button:focus{
-    background:var(--primary-3);
+    background:var(--nav-3);
     color:#fff;
     border:none;
 }
 
 .navbar form button:hover{
-    background:var(--primary-2);
+    background:var(--nav-2);
     color:#000;
 }
 ```
