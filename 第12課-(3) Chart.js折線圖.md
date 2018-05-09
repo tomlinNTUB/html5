@@ -294,13 +294,13 @@ var myChart = new Chart(ctx, {
             backgroundColor: 'rgba(212, 106, 106, 1)',
             borderColor: 'rgba(212, 106, 106, 1)'
         }, 
-		{
+        {
             label: '20歲人口(千人)',
             data: [325.1, 321.4, 323.4, 321.4, 322.4],
             fill: false,
             backgroundColor: 'rgba(128, 21, 21, 1)',			
             borderColor: 'rgba(128, 21, 21, 1)'
-		}]
+        }]
     },
     options: {
         scales: {
@@ -309,7 +309,7 @@ var myChart = new Chart(ctx, {
                     beginAtZero:true
                 }
             }]
-       }
+        }
     }
 });
 ```
