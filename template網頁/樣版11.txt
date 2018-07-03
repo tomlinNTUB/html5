@@ -76,7 +76,6 @@
                 到六月份，他開始敦促西奧和巴黎其他印象派藝術家加入自己的行列。「我希望你能在這裡度過一段時間，你會感覺到的，」他寫道。「一段時間後，你的視野會發生變化，你會更多地以日本人的方式去觀看事物，以不同的方式去感知色彩。」
             </p>
 
-            <hr>
             <img src="images/3.jpg" width="350" class="left master">
 
             <p class="desc">
@@ -255,12 +254,6 @@ p.author{
 /*-----------------------*/
 /* 圖片                  */
 /*-----------------------*/
-hr{    
-    background:#ccc;
-    height:1px;
-    margin:20px 0px;    
-}
-
 img.left{
     float:left;
     margin-right:15px;
