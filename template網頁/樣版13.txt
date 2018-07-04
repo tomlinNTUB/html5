@@ -351,8 +351,7 @@ $(function(){
     $('.item').mouseenter(function(){
         $(this).stop().animate(
             {
-                marginTop:-10,
-                backgroundColor:'#ffc'
+                marginTop:-10
             }, 
             {
                 duration:300,
@@ -365,8 +364,7 @@ $(function(){
     $('.item').mouseleave(function(){			
         $(this).stop().animate(
             {
-                marginTop:0,
-                backgroundColor:'#fff'
+                marginTop:0
             }, 
             {
                 duration:50
