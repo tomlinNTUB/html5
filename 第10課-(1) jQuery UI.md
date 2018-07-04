@@ -207,6 +207,7 @@ div.footer{
 $(function(){
     // 滑鼠移入	
     $('.item').mouseenter(function(){
+        //---------------------
         $(this).stop().animate(
             {
                 marginTop:-10,
@@ -215,12 +216,14 @@ $(function(){
             {
                 duration:300,
                 easing:'easeOutBounce'
-            });
-        }
-    );	
+            }
+        ); 
+        //---------------------
+    });	
 
     // 滑鼠移出	
-    $('.item').mouseleave(function(){			
+    $('.item').mouseleave(function(){
+        //---------------------
         $(this).stop().animate(
             {
                 marginTop:0,
@@ -228,8 +231,11 @@ $(function(){
             }, 
             {
                 duration:50
-            });
-        }
-    );		
+            }
+        );
+        //---------------------        
+    });		
 });
 ```
+
+
