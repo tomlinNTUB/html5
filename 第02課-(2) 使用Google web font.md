@@ -23,7 +23,7 @@ https://fonts.google.com/
 
 
 ##### 檔案名稱: index.html 
-```html
+``` html
 <!doctype html>
 <html>
 <head>
@@ -67,7 +67,7 @@ https://fonts.google.com/
 
 
 ##### 檔案名稱: css/main.css
-```css
+``` css
 @charset "utf-8";
 
 /*---------------------------*/
@@ -75,8 +75,8 @@ https://fonts.google.com/
 /*---------------------------*/
 html, body{
     font-size:20px;
-	/*設定google web font*/
-	font-family: 'Handlee', cursive;   
+    /*設定google web font*/
+    font-family: 'Handlee', cursive;   
 }
 
 
@@ -86,12 +86,9 @@ html, body{
 div.content{
     width:800px;
     border:1px solid #666;  
-    margin-top:50px;
-    margin-bottom:50px;
-    margin-left:auto;
-    margin-right:auto;
+    margin:50px atuo;
     box-sizing:border-box;
-    padding:20px 25px 20px 25px;
+    padding:20px 25px;
     line-height:32px;   
     text-align:justify;
 }
