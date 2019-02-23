@@ -26,7 +26,7 @@ https://fonts.google.com/
 <title>測試網頁</title>
 <!-- 連結main.css及思源中文 -->
 <link href="css/main.css" rel="stylesheet" type="text/css" />
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
 <!------------------------->
 </head>
    
