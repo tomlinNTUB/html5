@@ -1,41 +1,38 @@
-# 第02課 文字排版及字型設定
+# 02-2 使用Google雲端字型
 
 
-## (2) 使用Google web font
-
-
-##### 執行結果:
+### 執行結果:
 ![GitHub Logo](/imgs/results02-2.jpg)
 
 
-##### 網路資源:
+### 網路資源:
 https://fonts.google.com/
 
 
-##### 檔案放置方式:
+### 檔案放置方式:
 ```
-   | 
+   |___index.html  
+   |   
    |___<css>
-   |     |___ main.css
-   |	 
-   |___index.html   
+         |___ main.css    
 ```
 
 
-##### 檔案名稱: index.html 
+### (1) index.html 
 ``` html
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>測試網頁</title>
-<!-- 加入main.css及google web fonts -->   
+<!-- 連結main.css及googl雲端字型 -->   
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Handlee" rel="stylesheet">
-<!----------------------------------->
+<!------------------------------>
 </head>
    
 <body>
+<!-- *** 增加一個類別名稱是content的區塊 *** -->
 <div class="content">
     <h1>Introducing Taiwan</h1>
     
@@ -60,34 +57,36 @@ https://fonts.google.com/
     <h2>Asian Values On Their Terms</h2>
     <p>Defying those who said it wasn't in their DNA, the Taiwanese have created Asia's most vibrant democracy and liberal society, with a raucous free press, gender equality, and respect for human rights and, increasingly, animal rights as well. The ancestors are still worshipped, and mum and dad still get their dues, but woe betide the politician who thinks it's the people who must pander, and not him – or her. If you want to catch a glimpse of the people's passion for protest, check out Taipei Main Station on most weekends, or just follow the local news.</p>
 </div>
+<!-- *** content區塊的結束 -->
 </body>
    
 </html>
 ```
 
 
-##### 檔案名稱: css/main.css
+### (2)main.css
+
 ``` css
 @charset "utf-8";
 
 /*---------------------------*/
-/* 定義網頁                   */
+/* 編排網頁                   */
 /*---------------------------*/
 html, body{
-    font-size:20px;    
     font-family: 'Handlee', cursive;   /* 設定字型 */
 }
 
-
 /*---------------------------*/
-/* 定義內容                   */
+/* 編排content區塊            */
 /*---------------------------*/
 div.content{
     width:800px;
     border:1px solid #666;  
-    margin:50px atuo;
+    margin:50px auto;
     padding:20px 25px;
-    line-height:32px;   
+    
+    font-size:20px;
+    line-height:32px;   	
     text-align:justify;
 }
 ```
