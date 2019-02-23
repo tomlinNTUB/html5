@@ -29,12 +29,13 @@ https://fonts.google.com/
 <head>
 <meta charset="utf-8">
 <title>測試網頁</title>
+<!-- 加入main.css及google web fonts -->   
 <link href="css/main.css" rel="stylesheet" type="text/css" />
-<!-- 加入 google web fonts -->
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Handlee" rel="stylesheet">
+<!-- ----------------------------- -->
 </head>
+   
 <body>
-<!-- *** 加入一個區塊 *** -->
 <div class="content">
     <h1>Introducing Taiwan</h1>
     
@@ -59,8 +60,8 @@ https://fonts.google.com/
     <h2>Asian Values On Their Terms</h2>
     <p>Defying those who said it wasn't in their DNA, the Taiwanese have created Asia's most vibrant democracy and liberal society, with a raucous free press, gender equality, and respect for human rights and, increasingly, animal rights as well. The ancestors are still worshipped, and mum and dad still get their dues, but woe betide the politician who thinks it's the people who must pander, and not him – or her. If you want to catch a glimpse of the people's passion for protest, check out Taipei Main Station on most weekends, or just follow the local news.</p>
 </div>
-<!-- *** 區塊的結束 -->
 </body>
+   
 </html>
 ```
 
@@ -74,7 +75,7 @@ https://fonts.google.com/
 /*---------------------------*/
 html, body{
     font-size:20px;    
-    font-family: 'Handlee', cursive;   /* 設定字體 */
+    font-family: 'Handlee', cursive;   /* 設定字型 */
 }
 
 
@@ -85,7 +86,6 @@ div.content{
     width:800px;
     border:1px solid #666;  
     margin:50px atuo;
-    box-sizing:border-box;
     padding:20px 25px;
     line-height:32px;   
     text-align:justify;
