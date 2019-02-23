@@ -1,7 +1,7 @@
 # 第02課 文字排版及字型設定
 
 
-## (3) 使用思源中文
+## (3) 使用Noto中文
 
 
 ##### 執行結果:
@@ -29,11 +29,13 @@ https://fonts.google.com/earlyaccess#Noto+Sans+TC
 <head>
 <meta charset="utf-8">
 <title>測試網頁</title>
-<!-- 加入 main.css -->
+<!-- 加入main.css及思源中文 -->
 <link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+<!-- -------------------- -->
 </head>
+
 <body>
-<!-- ............................ -->
 <div class="content">
 	<h1>蔣勳：過得像個人，才能看到美</h1>
 
@@ -79,31 +81,21 @@ https://fonts.google.com/earlyaccess#Noto+Sans+TC
 	在7、8月，民生東路六段有全台北最漂亮的大花紫薇，即使有車可開，那時候我也絕對要走路，這些是讓我最快樂的事，這才是人。如果我們吃得不像人，穿得不像人，生活都失去了人的意義，那談藝術太遙遠。
 	我談我的生活，並不希望別人學我。每個人是不一樣的，不要隨便相信價格、人云亦云，生活中的美學，應該是不按照別人安排的。每個人應該用自己的生命，去創造自己的生活美學出來。</p>
 </div>
-<!-- ............................ -->
 </body>
 </html>
 ```
 
 
 ##### 檔案名稱: css/main.css
-```css
+``` css
 @charset "utf-8";
-
-/*---------------------------*/
-/* 引用思源中文                */
-/*---------------------------*/
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 /*---------------------------*/
 /* 定義網頁                   */
 /*---------------------------*/
-html, body{
-    font-size:17px;
-    /*設定思源中文*/
-    font-family: 'Noto Sans TC', sans-serif;
-    font-weight: 310;
+html, body{   
+    font-family: 'Noto Sans TC', sans-serif;  /* 設定字型 */    
 }
-
 
 /*---------------------------*/
 /* 定義內容                   */
@@ -111,13 +103,8 @@ html, body{
 div.content{
     width:800px;
     border:1px solid #666;  
-    margin-top:50px;
-    margin-bottom:50px;
-    margin-left:auto;
-    margin-right:auto;
-    box-sizing:border-box;
-    padding:20px 25px 20px 25px;
-    line-height:32px;   
+    margin:50px auto;
+    padding:20px 25px;
     text-align:justify;
 }
 ```
