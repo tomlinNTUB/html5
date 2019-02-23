@@ -1,5 +1,11 @@
 # 02-3 使用Noto中文
 
+
+### 練習重點
+```
+使用<link>標籤連結Google雲端中文字型, 並以font-family指定字型套用順序.
+```
+
 ### 執行結果:
 ![GitHub Logo](/imgs/results02-3.jpg)
 
