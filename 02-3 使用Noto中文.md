@@ -1,41 +1,37 @@
-# 第02課 文字排版及字型設定
+# 02-3 使用Noto中文
 
-
-## (3) 使用Noto中文
-
-
-##### 執行結果:
+### 執行結果:
 ![GitHub Logo](/imgs/results02-3.jpg)
 
 
-##### 網路資源:
+### 網路資源:
 https://fonts.google.com/
 
 
-##### 檔案放置方式:
+### 檔案放置方式:
 ```
-   | 
+   |___index.html  
+   |   
    |___<css>
-   |     |___ main.css
-   |	 
-   |___index.html   
+         |___ main.css    
 ```
 
 
-##### 檔案名稱: index.html 
+### (1) index.html 
 ```html
 <!doctype html>
 <html>
 <head>
 <meta charset="utf-8">
 <title>測試網頁</title>
-<!-- 加入main.css及思源中文 -->
+<!-- 連結main.css及思源中文 -->
 <link href="css/main.css" rel="stylesheet" type="text/css" />
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
-<!-------------------------->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300" rel="stylesheet">
+<!------------------------->
 </head>
-
+   
 <body>
+<!-- *** 增加一個類別名稱是content的區塊 *** -->
 <div class="content">
 	<h1>蔣勳：過得像個人，才能看到美</h1>
 
@@ -81,30 +77,35 @@ https://fonts.google.com/
 	在7、8月，民生東路六段有全台北最漂亮的大花紫薇，即使有車可開，那時候我也絕對要走路，這些是讓我最快樂的事，這才是人。如果我們吃得不像人，穿得不像人，生活都失去了人的意義，那談藝術太遙遠。
 	我談我的生活，並不希望別人學我。每個人是不一樣的，不要隨便相信價格、人云亦云，生活中的美學，應該是不按照別人安排的。每個人應該用自己的生命，去創造自己的生活美學出來。</p>
 </div>
+<!-- *** content區塊的結束 -->
 </body>
+   
 </html>
 ```
 
 
-##### 檔案名稱: css/main.css
+### (2) main.css
 ``` css
 @charset "utf-8";
 
 /*---------------------------*/
-/* 定義網頁                   */
+/* 編排網頁                   */
 /*---------------------------*/
-html, body{   
-    font-family: 'Noto Sans TC', sans-serif;  /* 設定字型 */    
+html, body{
+    font-family: 'Noto Sans TC', sans-serif;  /* 設定字型 */ 
 }
 
 /*---------------------------*/
-/* 定義內容                   */
+/* 編排content區塊            */
 /*---------------------------*/
 div.content{
     width:800px;
     border:1px solid #666;  
     margin:50px auto;
     padding:20px 25px;
+    
+    font-size:20px;
+    line-height:32px;   	
     text-align:justify;
 }
 ```
