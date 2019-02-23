@@ -9,7 +9,7 @@
 
 
 ##### 網路資源:
-https://fonts.google.com/earlyaccess#Noto+Sans+TC
+https://fonts.google.com/
 
 
 ##### 檔案放置方式:
