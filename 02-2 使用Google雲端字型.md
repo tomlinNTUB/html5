@@ -15,10 +15,10 @@ https://fonts.google.com/
 
 ### 檔案放置方式:
 ```
-   |___index.html  
-   |   
-   |___<css>
-         |___ main.css    
+|__ index.html  
+|   
+|__ <css>
+      |__ main.css    
 ```
 
 
