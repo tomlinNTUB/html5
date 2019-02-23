@@ -32,7 +32,7 @@ https://fonts.google.com/
 <!-- 加入main.css及google web fonts -->   
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Handlee" rel="stylesheet">
-<!-- ----------------------------- -->
+<!----------------------------------->
 </head>
    
 <body>
@@ -81,7 +81,7 @@ html, body{
 
 /*---------------------------*/
 /* 定義內容                   */
-/*-------------------------*-*/
+/*---------------------------*/
 div.content{
     width:800px;
     border:1px solid #666;  
