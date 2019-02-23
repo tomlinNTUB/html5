@@ -1,5 +1,9 @@
 # 02-2 使用Google雲端字型
 
+### 練習重點
+```
+使用<link>標籤連結Google雲端英文字型, 並以font-family指定字型套用順序.
+```
 
 ### 執行結果:
 ![GitHub Logo](/imgs/results02-2.jpg)
