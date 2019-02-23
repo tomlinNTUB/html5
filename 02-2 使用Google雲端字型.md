@@ -64,7 +64,7 @@ https://fonts.google.com/
 ```
 
 
-### (2)main.css
+### (2) main.css
 
 ``` css
 @charset "utf-8";
