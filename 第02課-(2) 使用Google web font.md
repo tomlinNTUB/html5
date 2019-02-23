@@ -29,7 +29,6 @@ https://fonts.google.com/
 <head>
 <meta charset="utf-8">
 <title>測試網頁</title>
-<!-- 加入 main.css -->
 <link href="css/main.css" rel="stylesheet" type="text/css" />
 <!-- 加入 google web fonts -->
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Handlee" rel="stylesheet">
@@ -74,9 +73,8 @@ https://fonts.google.com/
 /* 定義網頁                   */
 /*---------------------------*/
 html, body{
-    font-size:20px;
-    /*設定google web font*/
-    font-family: 'Handlee', cursive;   
+    font-size:20px;    
+    font-family: 'Handlee', cursive;   /* 設定字體 */
 }
 
 
