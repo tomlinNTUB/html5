@@ -9,11 +9,6 @@
 ![GitHub Logo](/imgs/results13-1.jpg)
 
 
-### 外掛網址
-```
-在<下載>中, Chart.bundle.js
-```
-
 ### 檔案放置方式:
 ```
 **以11-3網頁為基礎, 增加以下:
