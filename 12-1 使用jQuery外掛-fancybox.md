@@ -25,7 +25,7 @@ https://github.com/fancyapps/fancyBox
 ```
 **以11-3網頁為基礎, 增加以下:
 
-   |__ index.html(增加顯示區域) 
+   |__ index.html  (引用外掛, 增加顯示區域) 
    |
    |__ <imgs>
    |     |__ p01-big.jpg     (尺寸:800px*600px)
@@ -40,7 +40,7 @@ https://github.com/fancyapps/fancyBox
    |     |__ my.jquery.fancybox.css (自行增加) 
    |
    |__ <js>
-         |__ jquery.fancybox.js    (由官網複製)     
+         |__ jquery.fancybox.js     (由官網複製)     
   
 ```
 
