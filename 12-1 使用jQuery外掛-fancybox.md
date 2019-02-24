@@ -9,21 +9,21 @@
 ![GitHub Logo](/imgs/results12-1.jpg)
 
 
-### 下載網址
+### 外掛網址
 ```
 https://github.com/fancyapps/fancyBox
 ```
 
 ### 引用官網外掛檔案
 ```
-   |___<dist>
-         |___ jquery.fancybox.css
-         |___ jquery.fancybox.js
+   |__ <dist>
+         |__ jquery.fancybox.css
+         |__ jquery.fancybox.js
 ```
 
 ### 檔案放置方式:
 ```
-**以11-3為基礎, 增加以下:
+**以11-3網頁為基礎, 增加以下:
 
    |__ index.html(增加顯示區域) 
    |
