@@ -34,9 +34,9 @@ var ctx = document.getElementById("myChart").getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["星期一", "星期二", "星期三", "星期四", "星期五", "星期六"],
         datasets: [{
-            label: '# of Votes',
+            label: '完成人數',
             data: [12, 19, 3, 5, 2, 3],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
