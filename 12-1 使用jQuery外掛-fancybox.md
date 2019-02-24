@@ -70,14 +70,18 @@ p.imageView:after{
 ### (2) index.html (引用外掛)  
 ``` html
 .
-. (加入css)
-<link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css" />
-<link href="css/my.jquery.fancybox.css" rel="stylesheet" type="text/css" />
+.
+(加入css)
+<link href="css/jquery.fancybox.css" rel="stylesheet" />
+<link href="css/my.jquery.fancybox.css" rel="stylesheet" />
 .
 .
 .
-. (加入js)
+.
+(加入js)
 <script src="js/jquery.fancybox.js"></script> 
+.
+.
 ```
 
 ### (3) index.html (增加顯示區域)  
