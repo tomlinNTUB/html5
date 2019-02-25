@@ -16,7 +16,7 @@ https://github.com/Sweefty/tinytip
 
 ### 引用官網外掛檔案
 ```
-   |___tinytip.js   
+   |__ tinytip.js   
 ```
 
 
