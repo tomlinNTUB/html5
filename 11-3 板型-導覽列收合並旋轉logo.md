@@ -18,10 +18,10 @@
 |
 |__ <js>
 |     |__ main.js 
-|     |__ jQueryRotate.js   (下載:https://raw.githubusercontent.com/wilq32/jqueryrotate/master/jQueryRotate.js)
+|     |__ jQueryRotate.js  (下載:https://raw.githubusercontent.com/wilq32/jqueryrotate/master/jQueryRotate.js)
 |
 |__ <imgs>
-      |__ logo.jpg    (80像素*80像素)  
+      |__ logo.jpg  (80像素*80像素)  
 ```
 
 
