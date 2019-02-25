@@ -48,19 +48,16 @@ https://github.com/mickaelr/jquery-timelineMe
     color: #1a1a59;
 }
 
-
 /* 大標題設定 */
 .timeline-me-smallitem .timeline-me-label {
     font-size:18px;
     font-weight:600;
 }
 
-
 /* 線條顏色 */
 .timeline-me-track:before {
     background: #1a1a59;
 }
-
 
 /* 圓形外框及內部顏色 */
 .timeline-me-milestone .timeline-me-label .timeline-me-picto {
@@ -81,7 +78,6 @@ https://github.com/mickaelr/jquery-timelineMe
     z-index:15;
 }
 
-
 /* 內容背景顏色 */
 .timeline-me-shortcontent,
 .timeline-me-fullcontent {
@@ -89,7 +85,6 @@ https://github.com/mickaelr/jquery-timelineMe
     color:#fff;
     font-size:15px;
 }
-
 
 /* 內容的詳細功能 */
 .timeline-me-showmore {
@@ -99,7 +94,6 @@ https://github.com/mickaelr/jquery-timelineMe
     cursor:pointer;
 }
 
-
 /* 內容的摘要功能 */
 .timeline-me-showless {
     margin-top:20px;
@@ -107,8 +101,6 @@ https://github.com/mickaelr/jquery-timelineMe
     color:#fff;
     cursor:pointer;	
 }
-
-
 ```
 
 ### (2) my.jquery.timelineMe.js
