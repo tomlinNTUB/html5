@@ -26,7 +26,7 @@ https://github.com/stevenwanderski/bxslider-4
 ```
 
 
-### 檔案放置方式(以11-3範例為基礎, 增修以下):
+### 檔案放置方式 (以11-3範例為基礎, 增修以下):
 ```
    |__ index.html  (引用外掛, 增加顯示區域) 
    |    
