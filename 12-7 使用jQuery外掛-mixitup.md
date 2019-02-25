@@ -48,7 +48,7 @@ https://github.com/patrickkunka/mixitup
 ### (1) style.css
 ``` css
 將其中所有 .container 改成 .container_mixitup
-(共有2個)
+(共改2個)
 ```
 
 ### (2) my.mixitup.css
