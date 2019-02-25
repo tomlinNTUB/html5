@@ -1,4 +1,4 @@
-# 10-3 用jQueryRotate-旋轉logo
+# 10-3 用jQueryRotate-旋轉
 
 ### 練習重點
 ```
