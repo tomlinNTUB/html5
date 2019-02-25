@@ -1,4 +1,4 @@
-# 10-3 用jQueryRotate設定互動-旋轉
+# 10-3 用jQueryRotate-旋轉
 
 ### 練習重點
 ```
