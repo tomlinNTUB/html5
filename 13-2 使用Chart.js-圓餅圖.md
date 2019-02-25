@@ -9,16 +9,13 @@
 ![GitHub Logo](/imgs/results13-2.jpg)
 
 
-### 檔案放置方式:
+### 檔案放置方式 (以11-3範例為基礎, 增修以下):
 ```
-**以11-3網頁為基礎, 增加以下:
-
    |__ index.html  (引用外掛, 增加顯示區域) 
    |
    |__ <js>
          |__ Chart.bundle.js     (在<下載>資料夾中)
          |__ my.Chart.bundle.js  (自行增加) 
-  
 ```
 
 
