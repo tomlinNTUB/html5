@@ -21,19 +21,18 @@ https://github.com/fancyapps/fancyBox
          |__ jquery.fancybox.js
 ```
 
-### 檔案放置方式:
-```
-**以11-3網頁為基礎, 增加以下:
 
+### 檔案放置方式(以11-3為基礎, 繼增修以下):
+```
    |__ index.html  (引用外掛, 增加顯示區域) 
    |
    |__ <imgs>
-   |     |__ p01-big.jpg     (尺寸:800px*600px)
-   |     |__ p01-small.jpg   (尺寸:200px*200px)
-   |     |__ p02-big.jpg     (尺寸:800px*600px)
-   |     |__ p02-small.jpg   (尺寸:200px*200px)
-   |     |__ p03-big.jpg     (尺寸:800px*600px)
-   |     |__ p04-small.jpg   (尺寸:200px*200px)   
+   |     |__ p01-big.jpg     (800像素*600像素)
+   |     |__ p01-small.jpg   (200像素*200像素)
+   |     |__ p02-big.jpg     (800像素*600像素)
+   |     |__ p02-small.jpg   (200像素*200像素)
+   |     |__ p03-big.jpg     (800像素*600像素)
+   |     |__ p04-small.jpg   (200像素*200像素)   
    |     
    |__ <css>
    |     |__ jquery.fancybox.css    (由官網複製)
