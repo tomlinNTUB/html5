@@ -35,9 +35,9 @@
 <meta charset="utf-8">
 <title>測試網頁</title>
 <!-- 連結main.css, jquery-ui.css及思源中文 -->
-<link href="css/main.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet" type="text/css" />      
 <!------------------------->
 </head>
    
