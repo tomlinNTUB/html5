@@ -191,7 +191,7 @@ div.container{
 /* 編排<內文>區塊              */
 /*---------------------------*/
 div.content{
-    padding:20px 25px;
+    padding:20px 30px;
     line-height:32px;
     text-align:justify;
 }
