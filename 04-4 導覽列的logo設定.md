@@ -38,7 +38,7 @@
     <!--~~~~~~~~~~~~~~~~~-->
     <div class="header">
         <!--圖片-->         
-        <img src="imgs/header.jpg" width="80" height="80" class="logo">
+        <img src="imgs/logo.jpg" width="80" height="80" class="logo">
     
         <!--導覽列-->        
         <div class="navbar">
@@ -136,7 +136,7 @@ img.logo{
     margin-left:-40px;
     border-radius:40px;
     box-shadow:0px 1px 10px 0px #333;	
-    top:30px;	
+    top:20px;	
 }
 
 
