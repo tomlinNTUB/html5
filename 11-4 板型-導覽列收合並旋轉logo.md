@@ -33,7 +33,6 @@
 <meta charset="utf-8">
 <title>測試網頁</title>
 <!-- 連結main.css及思源中文 -->
-<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
 <link href="css/main.css" rel="stylesheet" type="text/css" />      
 <!------------------------->
@@ -48,10 +47,10 @@
         <!--導覽列-->        
         <div class="navbar">
             <ul>
-                <a href="#"><li>生活</li></a>
-                <a href="#"><li>旅遊</li></a>
-                <a href="#"><li>食物</li></a>
-                <a href="#"><li>文化</li></a>
+                <li><a href="#">生活</a></li>
+                <li><a href="#">旅遊</a></li>
+                <li><a href="#">食物</a></li>
+                <li><a href="#">文化</a></li>
             </ul>
         </div>   
     </div>    
@@ -136,7 +135,7 @@ div.header{
     min-width:800px;
     height:80px;
     background:rgba(51,51,51,0.7);
-    box-shadow:0px 1px 10px 0px #333;	
+    box-shadow:0px 1px 10px 0px #333;
     position:fixed;
     z-index:10;
 }
@@ -147,21 +146,16 @@ div.header img.logo{
     height:80px;
     border-radius:40px;
     position:relative;
-    z-index:30;	
+    z-index:30;
     left:50%;
     top:25px;
     margin-left:-40px;     
     box-shadow:0px 1px 3px 1px #000;
 }
 
-/* 定義logo圖示(滑鼠移入) */
-div.header img.logo:hover{
-    cursor:pointer;
-}
-
 /* 編排<導覽列> */
 div.navbar{
-    width:800px;	 
+    width:800px;
     height:40px;
     line-height:40px;
     font-size:18px;      
@@ -171,21 +165,35 @@ div.navbar{
     margin-left:-400px;
 }
 
-div.navbar ul{	     
+div.navbar ul{
     margin:0;
     padding:0;
-    list-style-type:none;	
+    list-style-type:none;
 }
 
 div.navbar ul li{
     width:150px;
-    text-align:center;	
+    text-align:center;
     float:left;
+}
+
+div.navbar ul li a{
+    text-decoration:none;
     color:#fff;
 }
 
-div.navbar ul a:nth-child(2) li{
+div.navbar ul li:nth-child(2){
     margin-right:200px;
+}
+
+/* 定義logo圖示(項目移入) */
+div.navbar ul a:hover{
+    color:#aaa;
+}
+
+/* 定義logo圖示(滑鼠移入) */
+div.header img.logo:hover{
+    cursor:pointer;
 }
 
 /*---------------------------*/
@@ -206,9 +214,9 @@ div.container{
 /* 編排<內文>區塊              */
 /*---------------------------*/
 div.content{
-    padding:20px 25px;    
+    padding:20px 25px;
     font-size:20px;
-    line-height:32px;   	
+    line-height:32px;
     text-align:justify;
 }
 
@@ -222,13 +230,6 @@ div.footer{
     font-size:13px;
     text-align:center;
     letter-spacing:3px;
-}
-
-/*========================*/
-/* 互動設計                */
-/*========================*/
-div.navbar ul a:hover li{
-    color:#aaa;
 }
 ```
 
