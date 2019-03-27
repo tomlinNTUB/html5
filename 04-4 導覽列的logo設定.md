@@ -140,6 +140,9 @@ img.logo{
     z-index:100;
 }
 
+.logo:hover{
+    cursor:pointer;
+}
 
 /* 編排<導覽列> */
 div.navbar{	 
@@ -172,6 +175,10 @@ div.navbar a{
 
 div.navbar ul li:nth-child(2){
     margin-right:160px;
+}
+
+.navbar a:hover{
+    color:#ccc;
 }
 
 /*---------------------------*/
