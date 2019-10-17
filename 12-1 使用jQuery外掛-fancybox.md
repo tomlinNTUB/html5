@@ -32,7 +32,7 @@ https://github.com/fancyapps/fancyBox
    |     |__ p02-big.jpg     (800像素*600像素)
    |     |__ p02-small.jpg   (200像素*200像素)
    |     |__ p03-big.jpg     (800像素*600像素)
-   |     |__ p04-small.jpg   (200像素*200像素)   
+   |     |__ p03-small.jpg   (200像素*200像素)   
    |     
    |__ <css>
    |     |__ jquery.fancybox.css    (由官網複製)
