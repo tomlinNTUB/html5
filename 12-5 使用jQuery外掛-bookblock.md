@@ -38,9 +38,9 @@ https://github.com/codrops/BookBlock
    |
    |__ <imgs>
    |     |__ p01-book.jpg   (600像素*400像素)
-   |     |__ p01-book.jpg   (600像素*400像素)
-   |     |__ p01-book.jpg   (600像素*400像素)
-   |     |__ p01-book.jpg   (600像素*400像素)
+   |     |__ p02-book.jpg   (600像素*400像素)
+   |     |__ p03-book.jpg   (600像素*400像素)
+   |     |__ p04-book.jpg   (600像素*400像素)
    |
    |__ <css>
    |     |__ bookblock.css     (由官網複製) 
