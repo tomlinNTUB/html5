@@ -209,12 +209,12 @@ div.footer{
 $(function(){
     // 滑鼠移入	
     $('.card').mouseenter(function(){        
-        $(this).stop().animate({marginTop:-20}, {duration:300, easing:'easeOutBounce'}); 
+        $(this).stop().animate({top:-20}, {duration:300, easing:'easeOutBounce'}); 
     });	
 
     // 滑鼠移出	
     $('.card').mouseleave(function(){        
-        $(this).stop().animate({marginTop:0}, {duration:50});
+        $(this).stop().animate({top:0}, {duration:50});
     });		
 });
 ```
